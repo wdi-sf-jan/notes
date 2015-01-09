@@ -584,7 +584,7 @@ For any command we discuss here, the command `man`, short for
 __manual__, will give a (hopefully) detailed explanation of that
 command.  Sometimes that explanation will be too detailed for you.
 When you get lost in a man page and you want to understand it, start
-again from the beginning of of the __man page__ and keep repeating.
+again from the beginning of the man page and keep repeating.
 Hopefully you will get further into the page each time you read it.
 
 Many advanced commands also accept the --help option, but not all, but
