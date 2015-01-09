@@ -277,14 +277,14 @@ well if you know it, `pwd` will give you the full path.
 ##Absolute and Relative Paths
 Go to you home directory with `cd ~` and __Try this now__
 
-  cd ./
+    cd ./
 
 What happened? Which directory are you in?
 
 Try this
 
-  cd ../
-  pwd
+    cd ../
+    pwd
 
 What happened? Which directory are you in?
 
@@ -411,13 +411,13 @@ unpacking that column:
 ##echo and Redirection
 __Try This__
 
-  echo "This bookshelf flexes under the weight of the books it holds."
+    echo "This bookshelf flexes under the weight of the books it holds."
 
 `echo` is a command that just echoes (outputs) what we give to it as arguments (same as operands).  Now we want to put that line in a file called `bookshelf.txt`.
 
 __Try This__
 
-  echo "This bookshelf flexes under the weight of the books it holds" > bookshelf.txt
+    echo "This bookshelf flexes under the weight of the books it holds" > bookshelf.txt
 
 Using the closing angle bracket `>` in this way is called redirection.
 Every command that we run in the shell has an input, an output, an
@@ -430,7 +430,7 @@ Two angle brackets `>>` appends the string to the end of the file:
 
 __Try This__
 
-  echo "It does not break, it does its job admirably" >> bookshelf.txt
+    echo "It does not break, it does its job admirably" >> bookshelf.txt
 
 Try `cat bookshelf.txt` to see the result
 
@@ -450,11 +450,11 @@ input of `sort`.  Now send the output of `sort` to a file:
 
 __Try This__
 
-  cat books.txt | sort
+    cat books.txt | sort
 
 __Try This__
 
-  cat books.txt | sort > sorted_books.txt
+    cat books.txt | sort > sorted_books.txt
 
 Look around again to see how the room has changed.
 
@@ -463,7 +463,7 @@ of the ones you'll be using the most is `grep`.
 
 __Try This__
 
-  cat books.txt | grep Mil
+    cat books.txt | grep Mil
 
 See how we filtered out just the lines that contain Mil?  Try grepping
 for something else.
@@ -476,7 +476,7 @@ folders from place to place.
 
 __Try This__
 
-  mv sorted_books.txt books.txt
+    mv sorted_books.txt books.txt
 
 Look around and see how the room has changed.
 
@@ -487,7 +487,7 @@ used `mv` to copy the file `bookshelf.txt` to add a file
 
 __Try This__
 
-  cp bookshelf.txt second_bookshelf.txt
+    cp bookshelf.txt second_bookshelf.txt
 
 ## Removing
 `rm` is short for remove.  Use `rm` to remove the
@@ -495,7 +495,7 @@ __Try This__
 
 __Try This__
 
-  rm second_bookshelf.txt
+    rm second_bookshelf.txt
 
 ##Filename Wildcards
 
@@ -505,7 +505,7 @@ along with a file extension:
 
 __Try This__
 
-  ls -la *.txt
+    ls -la *.txt
 
 For more ideas go here: [How to Use Wildcards](http://www.linfo.org/wildcard.html)
 
