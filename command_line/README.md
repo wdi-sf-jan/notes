@@ -80,15 +80,14 @@ Although they technically mean slightly different things, the
 following terms are synonymous with the Terminal Environment
 
   *  Shell
-  *  bash ('Bourne-Again shell', although I've haven't heard that used recently)
   *  Command Line
+  *  bash (Bourne-Again shell)
   *  Text Terminal
   *  DOS Prompt (on windows machines)
   *  SSH (on remote machines)
-  *  Bourne Shell
-  *  csh
-  *  ksh
-  *  sh
+  *  csh (C shell)
+  *  ksh (Korn shell)
+  *  sh (Bourne shell)
   *  [UNIX Shell](http://en.wikipedia.org/wiki/Unix_shell)
 
 ## Opening the Terminal
