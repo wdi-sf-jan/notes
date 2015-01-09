@@ -274,7 +274,7 @@ handy for scripts and for you, but you can use the full path just as
 well if you know it, `pwd` will give you the full path.
 
 ##Absolute and Relative Paths
-Go to you home directory with `cd ~` and __Try this now__
+Go to your home directory with `cd ~` and __Try this now__
 
     cd ./
 
