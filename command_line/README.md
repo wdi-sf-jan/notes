@@ -337,13 +337,13 @@ changes. We can make directories with the `mkdir` command.  Look at
 `man mkdir`.  What's the format of the command for making a directory?
 
     MKDIR(1)                  BSD General Commands Manual                 MKDIR(1)
-    
+
     NAME
          mkdir -- make directories
-    
+
     SYNOPSIS
          mkdir [-pv] [-m mode] directory_name ...
-    
+
     DESCRIPTION
          The mkdir utility creates the directories named as operands, in the order specified, using
          mode rwxrwxrwx (0777) as modified by the current umask(2).
