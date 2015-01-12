@@ -120,11 +120,11 @@ Bunyan, John:Saved by Grace
 
 Now try `ls` again.  Do you see the `books` file?  Look at the contents with `cat`.  Let's make another, smaller file, which will be our bookshelf.  Describe the bookshelf, and just say the description to ourselves.
 
-  echo "The particle board of this bookshelf flexes under the weight of the books it holds, but it serves its purpose and does it cheaply."
+    echo "The particle board of this bookshelf flexes under the weight of the books it holds, but it serves its purpose and does it cheaply."
   
 `echo` is a command that just echoes (outputs) what we give to it as arguments (same as operands).  Now we want to put that line in a file called `bookshelf`.
   
-  echo "The particle board of this bookshelf flexes under the weight of the books it holds, but it serves its purpose and does it cheaply." > bookshelf
+    echo "The particle board of this bookshelf flexes under the weight of the books it holds, but it serves its purpose and does it cheaply." > bookshelf
 
 Using the closing angle bracket `>` in this way is called redirection.  Every command that we run in the shell has an input, an output, an error output, and arguments/operands.  We are saying:  "Run `echo` with this string as an operand, and take the output and put it in a new file called bookshelf."  Try running `ls` again, and `cat` our new file.  
 
@@ -136,13 +136,13 @@ Let's look back at our books.  Read out the file.  Notice that the list of books
 
 Try `cat books`, and `cat books | sort`.  The character `|` is called the pipe.  We take the output from `cat books` and send it through a pipe to `sort`.  The output of `cat books` becomes the input of `sort`.  Now send the output of `sort` to a file:
 
-  cat books | sort > sorted_books
+    cat books | sort > sorted_books
 
 Look around again to see how the room has changed.
 
 There are dozens of powerful tools we can leverage using pipes.  One of the ones you'll be using the most is `grep`.
 
-  cat books | grep Mil
+    cat books | grep Mil
   
 See how we filtered out just the lines that contain Mil?  Try grepping for something else.
 
@@ -150,7 +150,7 @@ See how we filtered out just the lines that contain Mil?  Try grepping for somet
 
 Now that we have our books sorted, we really don't need our unsorted list of books.  `mv` stands for move, and that's how we move files and folders from place to place.
 
-  mv sorted_books books
+    mv sorted_books books
   
 Look around and see how the room has changed.
 
