@@ -88,9 +88,7 @@ The difference is in the contents and the relative position of other folders.
 
 #### Build new rooms (making directories with mkdir)
 
-`mkdir`
-
-`man mkdir`
+`mkdir living_room`
 
 #### Exercise: Furnishing the Room (editing files)
 
