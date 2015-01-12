@@ -36,7 +36,7 @@ The command line is my home.  I literally think of using the command line as wal
 
 * the entrance, __root directory__: `/`
 * my room, __home directory__: `~` or `/Users/alex`
-* current room, __working directory__: `pwd`
+* current room, __working directory__: can be retrieved by running `$ pwd`
 
 #### Look around:
 
