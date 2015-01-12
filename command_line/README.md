@@ -1,17 +1,33 @@
-These notes adapted from @rsofaer's [notes on command line](https://github.com/wdi-sf-jan-2014/notes/blob/master/living_in_the_command_line.md) from the Jan 2014 cohort.
+# Living in the Command Line
 
-# Objective: Living in the Command Line
-Web programmers have to live on the command line. 
+| Objectives |
+| :--- |
+| Navigate the terminal and have an understanding of the tools available in it. |
 
-## Control all the things (on your computer):
-* fast 
-* reliable
-* automatable   
-* switch to the mouse less!
 
-## Notes before we start
+# Background
 
-* man
+Web programmers have to live on the command line.  It gives us fast,
+reliable, and automatable control over computers.  Web servers usually
+don't have graphical interfaces, so we need to interact with them
+through command line and programmatic interfaces.  Once you become
+comfortable using the command line, staying on the keyboard will also
+help you keep an uninterrupted flow of work going without the
+disruption of shifting to the mouse.
+
+# Topics
+
+* Command Overview
+  * `ls`
+  * `cd`
+  * `mkdir`
+  * `cat`
+  * `touch`
+  * `rm`
+  * `grep`
+  * `|` (pipe), `>`, `>>`
+  * vim
+  * `ZShell`
 
 ## Metaphors
 The command line is my home.  I literally think of using the command line as walking around a building.
@@ -20,6 +36,7 @@ The command line is my home.  I literally think of using the command line as wal
 
 * the entrance, __root directory__: `/`
 * my room, __home directory__: `~` or `/Users/alex`
+* current room, __working directory__: `pwd`
 
 #### Look around:
 
