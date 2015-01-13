@@ -189,7 +189,7 @@ Here's a starter book on using the command line:
 
 Here's an interesting anecdote about why Standard Output and Standard Error are separate:
 
-[The Birth of Standard Error](http://spinellis.gr/blog/20131211/)
+[The Birth of Standard Error](http://www.spinellis.gr/blog/20131211/)
 
 ## Everything is Text (Almost)
 
