@@ -98,7 +98,7 @@ Emmet is also super useful when coding in CSS. Here are some sample shortcuts
 5. bdt+ -> `border-top: 1px solid #000;`
 6. @m -> `@media screen { }`
 
-Ubuntu Instructions for install Emmet: https://gist.github.com/Jon1213/4b9589e13eb47a777ae4
+Ubuntu Instructions for Emmet [here](http://pr-nizar.blogspot.com/2014/03/ubuntu-sublimetext3-package-control-emmet-pyv8-git.html)
 
 Here is a great cheat sheet for more shortcuts <a href = "http://docs.emmet.io/cheat-sheet/">http://docs.emmet.io/cheat-sheet/</a>
 
