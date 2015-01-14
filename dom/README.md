@@ -13,10 +13,10 @@ ID, its class, or its tag name.
 The following are different functions for grabbing elements on the
 page:
 
-- `document.getElementById`
-- `document.getElementsByClassName`
-- `document.getElementsByTagName`
-- `document.querySelectorAll`
+- `document.getElementById` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+- `document.getElementsByClassName` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
+- `document.getElementsByTagName` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+- `document.querySelectorAll` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
 
 Note: `getElementById` returns one element, while the rest return a
 list of elements.
@@ -37,3 +37,7 @@ its attributes.
 In the [dom_exercises](https://github.com/wdi-sf-jan/dom_exercises)
 repository, we have some in-class examples to work through. Clone the
 repository to your computer using the `git clone` command.
+
+## References
+
+- [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
