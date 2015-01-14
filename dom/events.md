@@ -62,6 +62,23 @@ accepts one parameter. By convention, we usually name this parameter
       is submitted.
     - `.target`: refers to the HTML element that triggered the event.
 
+## Example
+
+```html
+<form>
+  <input type="text" name="foo">
+  <input type="submit">
+</form>
+```
+
+```javascript
+var myForm = document.querySelector("form");
+myForm.addEventListener("submit", function (event) {
+  event.preventDefault();    // Prevent the page from refreshing.
+  console.log(event.target); // Will log the form itself.
+});
+```
+
 ## Exercises
 
 - Work through the `events` exercises continuing from Part 4.
