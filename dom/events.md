@@ -20,6 +20,28 @@ Some common events:
 - `submit`
 - `load`
 
+## Example
+
+```html
+<button id="howdy">Hello</button>
+```
+
+```javascript
+var taco = document.getElementById("howdy");
+taco.addEventListener("click", function (event) {
+  alert("the button was clicked");
+});
+```
+
+Alternative event listener syntax:
+
+```javascript
+var taco = document.getElementById("howdy");
+taco.onclick = function (event) {
+  alert("the button was clicked");
+};
+```
+
 ## Exercises
 
 We will continue to do the exercises in the
@@ -41,3 +63,8 @@ accepts one parameter. By convention, we usually name this parameter
 ## Exercises
 
 - Work through the `events` exercises continuing from Part 4.
+
+## Resources
+
+- [DOM Events](http://en.wikipedia.org/wiki/DOM_events)
+- [.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener)
