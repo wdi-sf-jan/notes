@@ -16,10 +16,11 @@ page:
 - `document.getElementById`
 - `document.getElementsByClassName`
 - `document.getElementsByTagName`
+- `document.querySelector`
 - `document.querySelectorAll`
 
-Note: `getElementById` returns one element, while the rest return a
-list of elements.
+Note: `getElementById` and `querySelector` return one element, while
+the rest return lists of elements.
 
 ## Manipulating HTML elements
 
