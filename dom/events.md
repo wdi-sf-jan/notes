@@ -1,9 +1,9 @@
 # DOM Events
 
 This morning we learned how to grab specific HTML elements and
-(possibly) modify them. Another thing we can do is listen for _events_
-on those elements. For example, we can ask to be notified when a
-button is clicked, when the mouse is moved, or when a form is
+(possibly) modify them. Another thing we can do is listen for
+__events__ on those elements. For example, we can ask to be notified
+when a button is clicked, when the mouse is moved, or when a form is
 submitted.
 
 ## Listening for DOM events
