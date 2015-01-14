@@ -41,7 +41,11 @@ repository to your computer using the `git clone` command.
 ## References
 
 - [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-- [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
-- [document.getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
-- [document.getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
-- [document.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
+
+- [.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+- [.getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
+- [.getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+- [.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
+
+- [.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element.innerHTML)
+- [.getAttribute](https://developer.mozilla.org/en-US/docs/Web/API/element.getAttribute)
