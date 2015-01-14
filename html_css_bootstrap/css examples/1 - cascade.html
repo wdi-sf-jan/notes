@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  /*STYLE FOR THE BOX*/
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+
+  /*ELEMENT - 1 point*/
+  div {
+    background-color: blue
+  }
+  /*CLASS - 10 points */
+  .green {
+    background-color: green;
+  }
+  /*ID - 100 points*/
+  #red {
+    background-color: red;
+  }
+  /*IMPORTANT - OVERRIDES EVERYTHING! You can think of it like 10,000 points */
+  .purple {
+    background-color: purple !important;
+  }
+</style>
+<body>
+  <!-- Inline styling is more powerful than an ID, think of it as 1,000 points -->
+  <div style = "background-color: pink"class="box green purple" id = "red">
+    I AM A BOX!
+  </div>
+</body>
+</html>

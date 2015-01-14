@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    a {
+      color:red;
+      text-decoration: none;
+    }
+    .link2:visited  {
+      color: grey;
+    }
+    .link2:hover {
+      color: blue;
+    }
+    .link2:active {
+      color:green;
+    }
+    .link1:hover {
+      color: blue;
+    }
+    .link1:active {
+      color:green;
+    }
+    #text:focus {
+      background-color: orange
+    }
+    li:nth-child(2n+2) {
+      color:red;
+    }
+    li:nth-child(2n+1) {
+      color:blue;
+    }
+    li:nth-child(4n) {
+      color:green;
+    }
+    tr {
+      background: rgba(45, 45, 45, 0.3);
+    }
+    tr:nth-child(2n) {
+      background: rgba(154, 160, 153, 0.11);
+    }
+    tr:first-child {
+      background: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <a href="#" class = "link1">This link goes nowhere!</a>
+  <a href="#" class = "link2">This link goes nowhere!</a>
+  <form action="javascript:void(0);">
+    <label for="text">Text Input</label><input autofocus type="text" placeholder = "type something here.." id = "text">
+  </form>
+  <ul>
+       <li>taco!</li>
+       <li>taco!</li>
+       <li>taco!</li>
+       <li>taco!</li>
+       <li>taco!</li>
+       <li>taco!</li>
+       <li>taco!</li>
+       <li>taco!</li>
+     </ul>
+     <table style = "width:100%">
+       <tr>
+         <th>Heading 1</th>
+         <th>Heading 2</th>
+         <th>Heading 3</th>
+         <th>Heading 4</th>
+      </tr>
+
+      <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+      </tr>
+
+      <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+      </tr>
+
+      <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+      </tr>
+
+      <tr>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+        <td>stuff</td>
+      </tr>
+
+
+     </table>
+</body>
+</html>

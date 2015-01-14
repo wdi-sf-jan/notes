@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  body {
+    margin: 0; /*REMOVE BROWSER MARGIN*/
+  }
+
+  .red{
+    background-color: red;
+    position:  absolute;
+    width: 400px;
+    height: 400px;
+    margin: auto; /*USE THIS TO CENTER THE DIV*/
+    /*THESE POSITIONS ARE NOW 20 and 30 PX FROM THE BOUNDRY OF THE PARENT*/
+    left: 20px;
+    top: 30px;
+
+    /*ONCE WE SET POSITION TO RELATIVE WE HAVE ACCESS TO TOP, BOTTOM, LEFT AND RIGHT*/
+    /*THINK OF THESE AS FROM THE ____ PUSH IT ___ PIXELS, */
+    /*TOP 200 = PUSH 200 PIXELS FROM THE TOP*/
+  }
+  .wrapper{
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    background: #e3e3e3;
+    position: relative;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="red">
+
+  </div>
+  </div>
+  <!-- IF THE PARENT OF THE DIV IS THE BROWSER WINDOW, ABSOLUTE/RELATIVE MAKES NO DIFFERENCE -->
+
+
+
+
+
+  </div>
+</body>
+</html>

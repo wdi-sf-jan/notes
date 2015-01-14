@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+  <style>
+    .left1 {
+      background-color: red;
+    }
+    .right1 {
+     background-color: blue;
+    }
+    .inside1 {
+     background-color: green;
+    }
+    .inside2 {
+      background-color: orange;
+    }
+    .offsetExample {
+      background-color: magenta;
+    }
+
+  </style>
+</head>
+<body>
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md-6 col-sm-6 col-xs-12 left1">
+      One Col
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12 right1">
+    Two Col
+      <div class="row">
+        <div class="col-md-6 col-sm-8 col-xs-10 inside1">
+          L
+        </div>
+        <div class="col-md-6 col-sm-4 col-xs-2 inside2">
+          R
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="col-md-6 col-md-offset-3 offsetExample">
+      I AM A COL MD 6 THAT IS OFFSET
+  </div>
+  </div>
+
+</div>
+</body>
+</html>

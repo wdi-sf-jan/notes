@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    margin:0;
+  }
+  #idSelector {
+    color: red;
+  }
+
+  .classSelector {
+    color: purple;
+  }
+
+  div {
+    background-color: pink;
+  }
+
+  .parent {
+    color: orange;
+  }
+
+  .parent .child  {
+    color: green;
+  }
+
+  /*ALL h2 TAGS THAT COME AFTER A p*/
+  p + h2 {
+    color: magenta;
+  }
+
+  /*ALL p TAGS THAT COME AFTER A div*/
+  div + p {
+    background: #e3e3e3;
+  }
+
+</style>
+<body>
+  <div class="classSelector">
+    This is text inside classSelector
+  </div>
+
+  <div id="idSelector">
+    This is text inside classSelector
+  </div>
+
+  <p class = "testClass">
+    This is a paragraph next to an h2
+  </p>
+
+  <h2>
+    This is an h2 next to a paragraph
+  </h2>
+
+  <p class="parent">
+    This is parent text
+    <span class="child">
+      This is child text inside the parent
+    </span>
+  </p>
+</body>
+</html>
