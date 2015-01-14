@@ -32,6 +32,21 @@ its attributes.
 - `.style`
 - `.getAttribute` and `.setAttribute`
 
+## Example
+
+```html
+<p id="myTitle">Hello, World!</p>
+```
+
+```javascript
+var title = document.getElementById("myTitle");
+console.log(title.innerHTML); // logs "Hello, World!"
+title.innerHTML = "Hi, Bob!" // changes page to display "Hi, Bob!"
+title.style.backgroundColor = "yellow";
+title.style.color = "red";
+title.style.height = "100px";
+```
+
 ## Exercises
 
 In the [dom_exercises](https://github.com/wdi-sf-jan/dom_exercises)
