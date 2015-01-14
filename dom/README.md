@@ -13,10 +13,10 @@ ID, its class, or its tag name.
 The following are different functions for grabbing elements on the
 page:
 
-- `document.getElementById` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
-- `document.getElementsByClassName` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
-- `document.getElementsByTagName` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
-- `document.querySelectorAll` [MDN docs](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
+- `document.getElementById` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+- `document.getElementsByClassName` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
+- `document.getElementsByTagName` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+- `document.querySelectorAll` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
 
 Note: `getElementById` returns one element, while the rest return a
 list of elements.
