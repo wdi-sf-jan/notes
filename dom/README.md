@@ -13,10 +13,10 @@ ID, its class, or its tag name.
 The following are different functions for grabbing elements on the
 page:
 
-- `document.getElementById` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
-- `document.getElementsByClassName` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
-- `document.getElementsByTagName` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
-- `document.querySelectorAll` - [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
+- `document.getElementById`
+- `document.getElementsByClassName`
+- `document.getElementsByTagName`
+- `document.querySelectorAll`
 
 Note: `getElementById` returns one element, while the rest return a
 list of elements.
@@ -41,3 +41,7 @@ repository to your computer using the `git clone` command.
 ## References
 
 - [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementById)
+- [document.getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByClassName)
+- [document.getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/document.getElementsByTagName)
+- [document.querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document.querySelectorAll)
