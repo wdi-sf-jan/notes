@@ -57,8 +57,10 @@ accepts one parameter. By convention, we usually name this parameter
 `event` (sometimes you'll see it named `e`).
 
 - `event`
-    - `.preventDefault()`
-    - `.target`
+    - `.preventDefault()`: prevents the brower's default action. One
+      example usage is stopping the page from refreshing when a form
+      is submitted.
+    - `.target`: refers to the HTML element that triggered the event.
 
 ## Exercises
 
@@ -68,3 +70,4 @@ accepts one parameter. By convention, we usually name this parameter
 
 - [DOM Events](http://en.wikipedia.org/wiki/DOM_events)
 - [.addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener)
+- [.preventDefault](https://developer.mozilla.org/en-US/docs/Web/API/event.preventDefault)
