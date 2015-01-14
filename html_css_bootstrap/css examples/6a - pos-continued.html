@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  div {
+    width: 200px;
+    height: 200px;
+  }
+  .wrapper{
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+
+  }
+  .box1{
+    background: red;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    z-index: 1;
+  }
+  .box2{
+    background: green;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+    float: right;
+  }
+  .box3{
+    background: yellow;
+    z-index: 100000;
+    position: relative;
+  }
+  .box4{
+    background: blue;
+  }
+
+  .cell {
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+  }
+
+  .floated{
+    float: left;
+    background: red;
+  }
+  .nofloat{
+    background: purple;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: left;
+    list-style: none;
+    margin:0 0 0 10px;
+  }
+  .aside{
+    float: left;
+    background: green;
+    width: 30%;
+  }
+  .content{
+    float: right;
+    background: blue;
+    width: 70%;
+  }
+  footer{
+    clear: both;
+  }
+</style>
+<body>
+  <div class="wrapper">
+    <div class="box1">Box1</div>
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+  </div>
+
+    <div class="box2">Box2</div>
+    <div class="box3">Box3</div>
+    <div class="box4">Box4</div>
+
+
+    <!-- <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div> -->
+
+  <div class="floated"></div>
+  <br>
+  <div class="nofloat"></div>
+  <br>
+  <div class="nofloat"></div>
+  <br>
+  <div class="nofloat"></div>
+
+  <nav>
+    <ul>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Info</li>
+      <li>Taco</li>
+    </ul>
+  </nav>
+  <br>
+  <nav style = "width:100%; background:red;">
+    This is my navbar!
+  </nav>
+  <div class = "aside">Aside</div>
+  <div class="content"></div>
+  <footer>This is my footer</footer>
+</body>
+</html>

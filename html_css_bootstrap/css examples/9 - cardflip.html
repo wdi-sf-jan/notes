@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+
+li {
+  width: 200px;
+  height: 200px;
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+  /*NEED TO POSITION THE PARENT*/
+  position: relative;
+  cursor: pointer;
+}
+li div {
+  /*MAKE THE WIDTH AND HEIGHT THE SIZE OF ITS PARENT CONTAINER*/
+  width: 100%;
+  height: 100%;
+  /*MAKE THE POSITION ABSOLUTE SO THEY ARE ON TOP OF EACH OTHER*/
+  position: absolute;
+  /*WHEN YOU ROTATE IT, YOU WILL NOT SEE THE BACKSIDE OF THE ELEMENT*/
+  backface-visibility: hidden;
+  transition: all .7s;
+
+}
+/*WHEN I HOVER OVER, I WANT TO ROTATE THE FRONT AND THE BACK*/
+li:hover .front {
+  /*REMOVE THE Z INDEX*/
+  z-index: 0;
+  transform: rotateY(180deg);
+}
+li:hover .back {
+  /*WITHOUT THIS WE ONLY ROTATE TO THE REVERSE - WE WANT IT TO ROTATE TO ITS RESTING SPOT*/
+  transform: rotateY(0);
+}
+.front {
+  /*THIS HELPS US SEE THE FRONT*/
+  z-index: 3;
+  color: black;
+  text-align: center;
+  /*MAKE THE LINE HEIGHT EQUAL TO THE HEIGHT TO CENTER THE NUMBER*/
+  line-height: 200px;
+  font-size: 60px;
+  background: #e3e3e3;
+}
+.back {
+  /*SHOW THE PICTURE HERE - AS WE GO FROM 0-180 IT CHANGES*/
+  /*THIS WILL REVERSE THE PIC*/
+  transform: rotateY(180deg);
+}
+</style>
+<body>
+  <ul>
+    <li>
+      <div class="front">Stuff</div>
+      <div class="back"><img src="http://lorempixel.com/200/200" alt=""></div>
+    </li>
+    <li>
+      <div class="front">Cats</div>
+      <div class="back"><img src="http://lorempixel.com/200/200/cats" alt=""></div>
+    </li>
+    <li>
+      <div class="front">Sports</div>
+      <div class="back"><img src="http://lorempixel.com/200/200/sports" alt=""></div>
+    </li>
+  </ul>
+</body>
+</html>
