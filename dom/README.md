@@ -46,6 +46,7 @@ title.innerHTML = "Hi, Bob!" // changes page to display "Hi, Bob!"
 title.style.backgroundColor = "yellow";
 title.style.color = "red";
 title.style.height = "100px";
+title.setAttribute("id", "yourTitle"); // don't do this. unusual to change ID.
 ```
 
 ## Exercises
