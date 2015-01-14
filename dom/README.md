@@ -28,9 +28,9 @@ Well, you can change its contents, change its style, or change some of
 its attributes.
 
 - `.innerHTML`
-- `.value`
 - `.style`
 - `.getAttribute` and `.setAttribute`
+- `.value` (for `<input>` elements)
 
 ## Example
 
