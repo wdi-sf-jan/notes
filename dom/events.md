@@ -12,11 +12,13 @@ submitted.
 
 ## Events
 
+Some common events:
+
 - `click`, `mousedown`, and `mouseup`
 - `mouseover`, `mouseout`, and `mousemove`
 - `keydown`, `keypress`, and `keyup`
 - `submit`
-- `DOMContentLoaded`
+- `load`
 
 ## Exercises
 
@@ -24,9 +26,13 @@ We will continue to do the exercises in the
 [dom_exercises](https://github.com/wdi-sf-jan/dom_exercises)
 repository from this morning.
 
-- Work through the Parts 1-3 in the `events` exercicses.
+- Work through the Parts 1-3 in the `events` exercises.
 
 ## The `event` object
+
+You may have noticed that the function that acts as the event handler
+accepts one parameter. By convention, we usually name this parameter
+`event` (sometimes you'll see it named `e`).
 
 - `event`
     - `.preventDefault()`
