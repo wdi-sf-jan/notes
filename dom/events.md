@@ -27,19 +27,19 @@ Some common events:
 ```
 
 ```javascript
-var taco = document.getElementById("howdy");
-taco.addEventListener("click", function (event) {
+function showPopUp() {
   alert("the button was clicked");
-});
+}
+
+var taco = document.getElementById("howdy");
+taco.addEventListener("click", showPopUp);
 ```
 
 Alternative event listener syntax:
 
 ```javascript
 var taco = document.getElementById("howdy");
-taco.onclick = function (event) {
-  alert("the button was clicked");
-};
+taco.onclick = showPopUp;
 ```
 
 ## Exercises
