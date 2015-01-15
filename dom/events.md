@@ -38,6 +38,10 @@ taco.addEventListener("click", showPopUp);
 Alternative event listener syntax:
 
 ```javascript
+function showPopUp() {
+  alert("the button was clicked");
+}
+
 var taco = document.getElementById("howdy");
 taco.onclick = showPopUp;
 ```
