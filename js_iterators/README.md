@@ -1,27 +1,9 @@
-Functional Programming
-======================
-
-Programming with functions! Weren't we already doing that?
-Well yes, but we can use functions more heavily, especially in place
-of loops.
-
-Definitions:
-
-- [First-class functions](http://en.wikipedia.org/wiki/First-class_function)
-- [Higher-order functions](http://en.wikipedia.org/wiki/Higher-order_function)
-
-
-Questions:
-
-- How do you structure a program?
-- Can't follow code I wrote last week.
-
 Iterators
----------
+=========
 
-Let's stop writing `for` loops. Iterators are _functional programming_
-replacements for `for` loops. We can use these functions to perform
-common Array operations for us.
+Iterators are _functional programming_ replacements for `for`
+loops. We can use these functions to perform common Array operations
+for us.
 
 What might we want to with an array?
 
@@ -31,8 +13,8 @@ What might we want to with an array?
 - combine all the items in some fashion
 
 We could accomplish all of this using `for` loops, but writing `for`
-loops is error prone and tiring. JavaScript provides iterator
-functions for all of these common operations. They are called
+loops is error prone and tedious. JavaScript provides iterator
+functions for some of the more common operations. They are called
 (respectively):
 
 - [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
@@ -49,7 +31,7 @@ a function, and pass that argument to `forEach`. Let's look at an
 example:
 
 ```
-var friends = ["Markus", "Tim", "Ilias", "Elie"];
+var friends = ["Peter", "Tim", "Myla", "Elie"];
 
 // old way, with a for loop
 for (var i = 0; i < friends.length; i++) {
@@ -62,9 +44,9 @@ friends.forEach(function (buddy) {
 });
 
 // both output the same thing
-// > Hello, Markus!
+// > Hello, Peter!
 // > Hello, Tim!
-// > Hello, Ilias!
+// > Hello, Myla!
 // > Hello, Elie!
 ```
 
@@ -228,6 +210,24 @@ console.log(sum);
 // > 20
 // which is, 10 + 1 + 2 + 3 + 4
 ```
+
+Functional Programming
+----------------------
+
+Programming with functions! Weren't we already doing that?
+Well yes, but we can use functions more heavily, especially in place
+of loops.
+
+Definitions:
+
+- [First-class functions](http://en.wikipedia.org/wiki/First-class_function)
+- [Higher-order functions](http://en.wikipedia.org/wiki/Higher-order_function)
+
+
+Questions:
+
+- How do you structure a program?
+- Can't follow code I wrote last week.
 
 References
 ----------
