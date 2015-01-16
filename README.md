@@ -23,3 +23,11 @@ Week 1
     * Afternoon - [DOM Events](dom/events.md)
 * Day 5
     * Review and [Tic Tac Toe](https://github.com/wdi-sf-jan/TicTacToe-Lab) introduction.
+
+Week 2
+------
+* Day 1
+    * No class - Martin Luther King, Jr.  Day
+* Day 2
+    * Morning - Testing
+    * Afternoon - [Iterators](js_iterators/)
