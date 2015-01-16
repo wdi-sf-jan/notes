@@ -25,10 +25,9 @@ functions for some of the more common operations. They are called
 forEach
 -------
 
-`forEach` is the _functional programming_ replacement for your standard
-`for` loop.  You can take the body from your `for` loop, wrap it in
-a function, and pass that argument to `forEach`. Let's look at an
-example:
+`forEach` is the replacement for your standard `for` loop.  You can
+take the body from your `for` loop, wrap it in a function, and pass
+that argument to `forEach`. Let's look at an example:
 
 ```
 var friends = ["Peter", "Tim", "Myla", "Elie"];
