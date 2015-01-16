@@ -30,7 +30,7 @@ take the body from your `for` loop, wrap it in a function, and pass
 that argument to `forEach`. Let's look at an example:
 
 ```
-var friends = ["Peter", "Tim", "Myla", "Elie"];
+var friends = ["Peter", "Tim", "Alex", "Myla", "Elie"];
 
 // old way, with a for loop
 for (var i = 0; i < friends.length; i++) {
@@ -45,6 +45,7 @@ friends.forEach(function (buddy) {
 // both output the same thing
 // > Hello, Peter!
 // > Hello, Tim!
+// > Hello, Alex!
 // > Hello, Myla!
 // > Hello, Elie!
 ```
