@@ -122,7 +122,7 @@ process. This is what `map` helps us solve. It is like `forEach`, but
 it returns the new array that is created.
 
 ```
-var names = ["tim", "ilias", "elie", "markus"];
+var names = ["tim", "myla", "elie", "peter"];
 
 // old way with for loop
 var cased = [];
@@ -138,8 +138,8 @@ var cased = names.map(function (person) {
 console.log(cased);
 
 // Should output
-// > ["TIM", "ILIAS", "ELIE", "MARKUS"]
-// > ["TIM", "ILIAS", "ELIE", "MARKUS"]
+// > ["TIM", "MYLA", "ELIE", "PETER"]
+// > ["TIM", "MYLA", "ELIE", "PETER"]
 ```
 
 filter
@@ -151,7 +151,7 @@ element of the original array: if it returns true, then the element is
 included in the new array, otherwise it is excluded.
 
 ```
-var names = ["tim", "ilias", "elie", "markus"];
+var names = ["tim", "myla", "elie", "peter"];
 
 var isEven = function (name) {
   return name.length % 2 === 0;
@@ -167,8 +167,8 @@ console.log(evenLengthNames);
 console.log(oddLengthNames);
 
 // Should output
-// > ["elie", "markus"]
-// > ["tim", "ilias"]
+// > ["elie", "peter"]
+// > ["tim", "myla"]
 ```
 
 reduce
