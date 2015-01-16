@@ -21,3 +21,5 @@ Week 1
 * Day 4
     * Morning - [DOM](dom/)
     * Afternoon - [DOM Events](dom/events.md)
+* Day 5
+    * Review and [Tic Tac Toe](https://github.com/wdi-sf-jan/TicTacToe-Lab) introduction.
