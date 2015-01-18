@@ -232,6 +232,8 @@ Questions:
 References
 ----------
 
+- [Reducing Filter and Map Down to Reduce](http://www.elijahmanor.com/reducing-filter-and-map-down-to-reduce/)
+
 - [Functional Programming on Wikipedia](http://en.wikipedia.org/wiki/Functional_programming)
   (Don't read this.  It will take you down a rabbit hole. But know
   that it exists.)
@@ -239,7 +241,3 @@ References
 - [Imperative Programming on Wikipedia](http://en.wikipedia.org/wiki/Imperative_programming)
   If we weren't doing _functional programming_, what were we doing?
   _Imperative programming_.
-
-
-
-
