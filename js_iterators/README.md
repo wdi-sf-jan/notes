@@ -86,34 +86,6 @@ var foods = [
 // > Cottage Cheese is not very delicious
 ```
 
-__Implement it__
-
-What if JavaScript did not have the `forEach` iterator.
-Could we make it ourselves? What do we think it's doing under the
-hood?
-
-Create a function called `each` that will take two arguments:
-
-- an array to loop over
-- a function to run on every element of the array
-
-```
-var names = ["billy", "bob", "joe"];
-
-var each = function (items, callback) {
-    // your code here
-}
-
-each(names, function (person) {
-    console.log("Hello, " + person + "!");
-});
-
-// should output:
-// > Hello, billy!
-// > Hello, bob!
-// > Hello, joe!
-```
-
 map
 ---
 
