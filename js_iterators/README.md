@@ -71,23 +71,23 @@ map
 
 Sometimes we want to loop over an array and build a new array in the
 process. This is what `map` helps us solve. It is like `forEach`, but
-it returns the new array that is created.
+it __returns__ the new array that is created.
 
 ```
 var names = ["tim", "myla", "elie", "peter"];
 
 // old way with for loop
-var cased = [];
+var upperCased = [];
 for (var i = 0; i < names.length; i++) {
-    cased.push(names[i].toUpperCase());
+  upperCased.push(names[i].toUpperCase());
 }
-console.log(cased);
+console.log(upperCased);
 
 // new way with `map`
-var cased = names.map(function (person) {
-    return person.toUpperCase();
+var upperCased = names.map(function (person) {
+  return person.toUpperCase();
 });
-console.log(cased);
+console.log(upperCased);
 
 // Should output
 // > ["TIM", "MYLA", "ELIE", "PETER"]
@@ -119,14 +119,14 @@ console.log(evenLengthNames);
 console.log(oddLengthNames);
 
 // Should output
-// > ["elie", "peter"]
-// > ["tim", "myla"]
+// > ["myla", "elie"]
+// > ["tim", "peter"]
 ```
 
 reduce
 ------
 
-Reduce iterates over an array and turns it into one, accumulated
+Reduce iterates over an array and converts it into one, accumulated
 value. In some other languages it is called `fold`. I like to imagine
 the game 2048 as it reduces, or folds up, several smaller blocks into
 fewer, bigger blocks.
@@ -145,7 +145,7 @@ console.log(sum);
 // which is, 1 + 2 + 3 + 4
 ```
 
-Reduce also usually accepts an option third parameter that will be the
+Reduce also usually accepts an optional third parameter that will be the
 initial accumulated value. If it is omitted, then the reduction starts
 with the first two values in the array.
 
