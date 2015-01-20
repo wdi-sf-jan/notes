@@ -1,6 +1,16 @@
 Iterators
 =========
 
+Objectives
+---------
+
+* Utilize built-in methods for common array operations
+* Understand the benefits of these methods compared to `for` loops
+* Discuss the idea of _functional programming_
+
+What are iterators?
+-------------------
+
 Iterators are functions that act as replacements for `for`
 loops. We can use these functions to perform common Array operations
 for us.
@@ -11,6 +21,8 @@ What might we want to with an array?
 - create a new array with each item being slightly transformed
 - filter the array to contain only a subset of items
 - combine all the items in some fashion
+- detect if there's at least one of something in the array
+- detect if all of the items meet some condition
 
 We could accomplish all of this using `for` loops, but writing `for`
 loops is error prone and tedious. JavaScript provides iterator
