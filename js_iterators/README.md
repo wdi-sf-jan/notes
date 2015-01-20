@@ -21,6 +21,8 @@ functions for some of the more common operations. They are called
 - [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 - [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- [some](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+- [every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 forEach
 -------
@@ -161,6 +163,23 @@ console.log(sum);
 // Should output:
 // > 20
 // which is, 10 + 1 + 2 + 3 + 4
+```
+
+some & every
+------------
+
+`some` will run through an array and return true if at least one
+element meets a condition. `every` will return true only if all of the
+elements in the array meet the condition.
+
+```
+var isOdd = function (num) {
+  return num % 2 !== 0;
+};
+[1,2,3].some(isOdd);
+=> true
+[1,2,3].every(isOdd);
+=> false
 ```
 
 Functional Programming
