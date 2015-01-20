@@ -1,7 +1,7 @@
 Iterators
 =========
 
-Iterators are _functional programming_ replacements for `for`
+Iterators are functions that act as replacements for `for`
 loops. We can use these functions to perform common Array operations
 for us.
 
