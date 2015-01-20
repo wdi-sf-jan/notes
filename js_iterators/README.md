@@ -194,33 +194,7 @@ var isOdd = function (num) {
 => false
 ```
 
-Functional Programming
-----------------------
-
-Programming with functions! Weren't we already doing that?
-Well yes, but we can use functions more heavily, especially in place
-of loops.
-
-Definitions:
-
-- [First-class functions](http://en.wikipedia.org/wiki/First-class_function)
-- [Higher-order functions](http://en.wikipedia.org/wiki/Higher-order_function)
-
-
-Questions:
-
-- How do you structure a program?
-- Can't follow code I wrote last week.
-
 References
 ----------
 
 - [Reducing Filter and Map Down to Reduce](http://www.elijahmanor.com/reducing-filter-and-map-down-to-reduce/)
-
-- [Functional Programming on Wikipedia](http://en.wikipedia.org/wiki/Functional_programming)
-  (Don't read this.  It will take you down a rabbit hole. But know
-  that it exists.)
-
-- [Imperative Programming on Wikipedia](http://en.wikipedia.org/wiki/Imperative_programming)
-  If we weren't doing _functional programming_, what were we doing?
-  _Imperative programming_.
