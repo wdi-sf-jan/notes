@@ -1,6 +1,6 @@
 # Intro to TDD
 
-## Objetives
+## Objectives
 
 * Understand the philosophy and the *why* of testing
 * Solve a test driven problem on codewars
