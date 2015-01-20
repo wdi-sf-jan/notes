@@ -47,7 +47,7 @@ What is the value of `this` by default?
 ##### [HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement)
 ##### [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 
-### Room Stand-Up Question: If you think the `window` object s a global object stand up, or if it's a host object remain sitting.
+### Room Stand-Up Question: If you think the `window` object is a global object stand up, or if it's a host object remain sitting.
 
 ## The Developer Tools - Your Biggest Friend in the Browser
 
