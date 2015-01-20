@@ -46,7 +46,8 @@ $ npm -v
 $ node -v
 ```
 
-### Let's run through the steps for runnign tests (simple sample example)
+### Let's run through the steps for running tests (simple sample example)
 
+[Follow the instructions here](https://github.com/wdi-sf-jan/simple_sample_tdd_example)
 
 
