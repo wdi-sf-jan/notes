@@ -29,5 +29,5 @@ Week 2
 * Day 1
     * No class - Martin Luther King, Jr.  Day
 * Day 2
-    * Morning - Testing
+    * Morning - [Intro to TDD](tdd/intro.md)
     * Afternoon - [Iterators](js_iterators/)
