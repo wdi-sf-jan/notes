@@ -36,4 +36,4 @@ Week 2
     * Afternoon - [OOP Continued and Inheritance](inheritance_javascript)
 * Day 4
 	 * Morning - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
-	 * Afternoon - [Persistence, LocalStorage, JSON](js/persistence_local_storage_json.md)
+	 * Afternoon - [Persistence, LocalStorage, JSON](local_storage_json)
