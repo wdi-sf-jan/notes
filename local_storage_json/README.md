@@ -71,8 +71,8 @@ We've seen how LocalStorage can be used to persist data in the browser
 between visits. So far, we've only tried to store Strings as
 values.
 
-Question: What happens if we try to store Numbers or Booleans?  
-Answer: We can't, they get converted to Strings.
+__Question__: What happens if we try to store Numbers or Booleans?  
+__Answer__: We can't, they get converted to Strings.
 
 ```javascript
 localStorage.setItem("myNumber", 5);
@@ -85,8 +85,8 @@ localStorage.getItem("myBoolean")
 
 Ok, so we can only store Strings in LocalStorage.
 
-Question: What happens if we try to store an Object or Array?  
-Answer: They also get (poorly) converted to Strings.
+__Question__: What happens if we try to store an Object or Array?  
+__Answer__: They also get (poorly) converted to Strings.
 
 ```javascript
 localStorage.setItem("myArray", [1,2,3]);
