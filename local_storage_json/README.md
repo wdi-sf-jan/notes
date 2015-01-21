@@ -52,20 +52,17 @@ Try It
 ------
 
 Go to the [MDN example site](http://mdn.github.io/web-storage-demo/)
-and in the Chrome DevTools console:
+and in the Chrome DevTools console type:
 
-* type `localStorage` into the console to see what keys and values it
-  holds.
-* type `localStorage.getItem("bgcolor")` to retrieve the current
-  background color.
-* type `localStorage.getItem("font")` to see the current font.
-* type `localStorage.setItem("bgcolor", "008800")` to change the
-  background color. (You'll need to refresh the page to see the
-  results).
-* type `localStorage.setItem("font", "Georgia")` to change the
-  font.
-* type `localStorage` to view your updates.
-* type `localStorage.clear()` to reset back to the defaults.
+* `localStorage` to see the stored keys and values.
+* `localStorage.getItem("bgcolor")` to retrieve the current background
+  color.
+* `localStorage.getItem("font")` to see the current font.
+* `localStorage.setItem("bgcolor", "008800")` to change the background
+  color. (You'll need to refresh the page to see the results).
+* `localStorage.setItem("font", "Georgia")` to change the font.
+* `localStorage` to view your updates.
+* `localStorage.clear()` to reset back to the defaults.
 
 Stringing Us Along
 ------------------
@@ -74,7 +71,7 @@ We've seen how LocalStorage can be used to persist data in the browser
 between visits. So far, we've only tried to store Strings as
 values.
 
-Question: What happens if we try to store Numbers or Booleans?
+Question: What happens if we try to store Numbers or Booleans?  
 Answer: We can't, they get converted to Strings.
 
 ```javascript
@@ -88,7 +85,7 @@ localStorage.getItem("myBoolean")
 
 Ok, so we can only store Strings in LocalStorage.
 
-Question: What happens if we try to store an Object or Array?
+Question: What happens if we try to store an Object or Array?  
 Answer: They also get (poorly) converted to Strings.
 
 ```javascript
@@ -108,8 +105,8 @@ Enter JSON
 
 [JavaScript Object Notation](http://en.wikipedia.org/wiki/JSON)
 
-* `JSON.stringify()` - converts an Object into a String [docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify)
-* `JSON.parse()` - converts a String back into an Object [docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+* `JSON.stringify()` - converts an Object into a String ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify))
+* `JSON.parse()` - converts a String back into an Object ([docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse))
 
 We can use these built-in browser methods to convert Objects and
 Arrays into Strings before we store them, and then back into Objects
