@@ -112,7 +112,7 @@ We can use these built-in browser methods to convert Objects and
 Arrays into Strings before we store them, and then back into Objects
 and Arrays when we retrieve them.
 
-Convert an Object to a String:
+_Convert an Object to a String:_
 
 ```javascript
 var bob = {name:"Bob", age:81};
@@ -122,15 +122,17 @@ bob;
 var fakeBob = JSON.stringify(bob);
 => undefined
 fakeBob;
-=> "{"name":"Bob","age":81}"
+=> '{"name":"Bob","age":81}'
 localStorage.setItem("coolPerson", fakeBob);
 ```
+
+_Convert a String to an Object:_
 
 ```javascript
 var fakeBob = localStorage.getItem("coolPerson");
 => undefined
 fakeBob;
-=> "{"name":"Bob","age":81}"
+=> '{"name":"Bob","age":81}'
 JSON.parse(fakeBob);
 => Object {name: "Bob", age: 81}
 ```
