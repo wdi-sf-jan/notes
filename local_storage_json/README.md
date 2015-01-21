@@ -1,5 +1,5 @@
-Local Storage
-=============
+Persistence, LocalStorage, JSON
+===============================
 
 Since we don't have a server / backend yet, everytime you refresh your
 webpage it's the same. Eventually, we will use a server with a
@@ -15,8 +15,8 @@ your changes are lost.
 
 What if you want to save data between visits?
 
-Enter Local Storage
--------------------
+Local Storage
+-------------
 
 [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
 allows you to persist some data right in the browser. This almost
@@ -28,8 +28,7 @@ browser.
 ...  
 [Welcome back]  
 
-Usage
------
+### Usage
 
 The browser provides you with a `window.localStorage` property you can
 use.
@@ -41,15 +40,13 @@ localStorage.removeItem("myCat");     // removes "myCat" from storage.
 localStorage.clear();                 // removes ALL items from storage.
 ```
 
-Caveats
--------
+### Caveats
 
 * LocalStorage is shared within domains. All pages on `google.com` can
   access the same localStorage but pages on `yahoo.com` will have
   their own, separate localStorage.
 
-Try It
-------
+### Try It
 
 Go to the [MDN example site](http://mdn.github.io/web-storage-demo/)
 and in the Chrome DevTools console type:
@@ -64,8 +61,7 @@ and in the Chrome DevTools console type:
 * `localStorage` to view your updates.
 * `localStorage.clear()` to reset back to the defaults.
 
-Stringing Us Along
-------------------
+### Stringing Us Along
 
 We've seen how LocalStorage can be used to persist data in the browser
 between visits. So far, we've only tried to store Strings as
@@ -100,8 +96,8 @@ localStorage.getItem("myObject");
 This isn't particularly helpful.  What if we _want_ to store an Object
 or an Array?
 
-Enter JSON
-----------
+JSON
+----
 
 [JavaScript Object Notation](http://en.wikipedia.org/wiki/JSON)
 
@@ -137,8 +133,7 @@ JSON.parse(fakeBob);
 => Object {name: "Bob", age: 81}
 ```
 
-Try It
-------
+### Try It
 
 In the Chrome DevTools console:
 
