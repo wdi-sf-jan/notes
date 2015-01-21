@@ -31,3 +31,6 @@ Week 2
 * Day 2
     * Morning - [Intro to TDD](tdd/intro.md)
     * Afternoon - [Iterators](js_iterators/)
+* Day 3
+    * Morning - [Intro to OOP, Constructors and Prototypes](constructors_prototypes)
+    * Afternoon - [OOP Continued and Inheritance](inheritance_javascript)
