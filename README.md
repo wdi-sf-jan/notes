@@ -35,5 +35,5 @@ Week 2
     * Morning - [Intro to OOP, Constructors and Prototypes](constructors_prototypes)
     * Afternoon - [OOP Continued and Inheritance](inheritance_javascript)
 * Day 4
-	 * Morning - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
-	 * Afternoon - [Persistence, LocalStorage, JSON](local_storage_json)
+	 * Morning - [Persistence, LocalStorage, JSON](local_storage_json)
+	 * Afternoon - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
