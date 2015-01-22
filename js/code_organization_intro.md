@@ -15,11 +15,13 @@
 * [Understanding module.exports](http://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 * [Node.js Require and Exports](http://openmymind.net/2012/2/3/Node-Require-and-Exports/)
 
-#### Enter browserify, let's install it for your use:
+#### Enter browserify and gulp, let's install them for your use:
 
-```
-$ npm install -g browserify
-```
+1. `$ sudo npm install -g gulp`
+2. `$ sudo npm install -g browserify`
+3. `$ npm install`
+4. in one terminal window `$ gulp js`
+5. in another terminal window `$ gulp serve`
 
 ##### Two key commands:
 
