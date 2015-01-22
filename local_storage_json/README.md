@@ -46,7 +46,7 @@ localStorage.clear();                 // removes ALL items from storage.
   access the same localStorage but pages on `yahoo.com` will have
   their own, separate localStorage.
 
-### Try It
+### Try It (Part 1)
 
 Go to the [MDN example site](http://mdn.github.io/web-storage-demo/)
 and in the Chrome DevTools console type:
@@ -133,7 +133,7 @@ JSON.parse(fakeBob);
 => Object {name: "Bob", age: 81}
 ```
 
-### Try It
+### Try It (Part 2)
 
 In the Chrome DevTools console:
 
