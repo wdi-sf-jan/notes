@@ -35,5 +35,7 @@ Week 2
     * Morning - [Intro to OOP, Constructors and Prototypes](constructors_prototypes)
     * Afternoon - [OOP Continued and Inheritance](inheritance_javascript)
 * Day 4
-	 * Morning - [Persistence, LocalStorage, JSON](local_storage_json)
-	 * Afternoon - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
+    * Morning - [Persistence, LocalStorage, JSON](local_storage_json)
+    * Afternoon - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
+* Day 5
+    * Review and [Drag Race](https://github.com/wdi-sf-jan/drag-race) discussion.
