@@ -38,4 +38,4 @@ Week 2
     * Morning - [Persistence, LocalStorage, JSON](local_storage_json)
     * Afternoon - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
 * Day 5
-    * Review and [Drag Race](https://github.com/wdi-sf-jan/drag-race) discussion.
+    * [Review](https://github.com/wdi-sf-jan/week2_review) and [Drag Race Lab](https://github.com/wdi-sf-jan/drag-race) discussion.
