@@ -43,6 +43,9 @@ Week 2
 Week 3
 ------
 * Day 1
-    * Review of [Drag Race Lab](https://github.com/wdi-sf-jan/drag-race)
+	* Review of [Drag Race Lab](https://github.com/wdi-sf-jan/drag-race)
 * Day 2
-    * Morning + Afternoon - [Intro to jQuery](jquery_intro)
+	* Morning + Afternoon - [Intro to jQuery](jquery_intro)
+* Day 3
+	* Morning - [Intro to HTTP and AJAX](intro_to_http_ajax/)
+	* Afternoon - [Intro to APIs](intro_to_apis/)
