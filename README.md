@@ -39,3 +39,10 @@ Week 2
     * Afternoon - [Intro to Code Organization, Build Tools, & Dependency Management](js/code_organization_intro.md)
 * Day 5
     * [Review](https://github.com/wdi-sf-jan/week2_review) and [Drag Race Lab](https://github.com/wdi-sf-jan/drag-race) discussion.
+
+Week 3
+------
+* Day 1
+    * Review of [Drag Race Lab](https://github.com/wdi-sf-jan/drag-race)
+* Day 2
+    * Morning + Afternoon - [Intro to jQuery](jquery_intro)
