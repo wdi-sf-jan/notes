@@ -65,9 +65,8 @@ Where else in computing do we see the term "interface"?
 
 ## GitHub API Exercise
 
-Let's work through an example of calling GitHub's API using AJAX.
-
-[https://github.com/wdi-sf-jan/github_api_example](https://github.com/wdi-sf-jan/github_api_example)
+Let's work through an
+[example of calling GitHub's API using AJAX](https://github.com/wdi-sf-jan/github_api_example).
 
 ## Good API Design
 
