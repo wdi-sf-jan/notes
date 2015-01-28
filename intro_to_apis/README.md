@@ -84,8 +84,6 @@ may encounter this error which can be solved multiple ways, we will
 show you JSONP. JSONP allows you to make a request from one site for
 JSON data from another site.
 
-[Same-Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy)
-
 ## GitHub API Exercise
 
 Let's work through an
@@ -108,3 +106,4 @@ enough that they are easy to understand and maintain?
 - [APIs on Wikipedia](http://en.wikipedia.org/wiki/Application_programming_interface)
 - [jQuery AJAX methods](http://api.jquery.com/category/ajax/)
 - [Watch one of GA's own explain APIs](https://www.youtube.com/watch?v=FknvOGcLHmc)
+- [Same-Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy)
