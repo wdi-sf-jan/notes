@@ -70,7 +70,7 @@ Let's work through an
 
 ## Good API Design
 
-APIs can be big, public endevours (jQuery, Twitter, etc), or they can
+APIs can be big, public endeavors (jQuery, Twitter, etc), or they can
 be smaller, less official undertakings such as when your code needs to
 talk to your co-worker's. How do you and your co-worker each design
 your separate parts so that they interface well but are isolated
