@@ -33,10 +33,10 @@ ul.append(li);
 	
 	```
 	<script id="my-template" type="text/x-handlebars-template">
-    	<div class="entry">
-        	<h1>{{title}}</h1>
+    	<div class="container">
+        	<h1>{{movie.Title}}</h1>
         	<div class="body">
-            	{{body}}
+            	   {{movie.Poster}}
         	</div>
     	</div>
 	</script>
@@ -44,11 +44,11 @@ ul.append(li);
 	*	Or if you have an array of multiple objects, you can loop through the data like so:
 	
 	```
-	<div id="comments">
-    	{{#each comments}}
-        <h2><a href="/posts/{{id}}">{{title}}</a></h2>
-        <div>{{body}}</div>
-    	{{/each}}
+	<div id="movies">
+    	   {{#each movieData}}
+        	<h2><a href="/posts/{{movieData.id}}">{{movieData.Title}}</a></h2>
+        	<div>{{movieData.Poster}}</div>
+    	   {{/each}}
 	</div>
 	```
 	*	The curly braces (yes it's like a handlebars mustache!) tell the script to render that data based on your AJAX call related to that script id. 
