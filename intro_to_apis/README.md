@@ -72,7 +72,7 @@ Station (ISS).
 Let's take a look at some example code showing how we would do that:
 [space_station_example](space_station_example).
 
-#### JSONP (Same-Origin Policy)
+__JSONP (Same-Origin Policy)__
 
 One of the most important security measures in what's called the
 Same-Origin Policy which only permits scripts running on pages
