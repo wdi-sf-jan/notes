@@ -65,9 +65,26 @@ Where else in computing do we see the term "interface"?
 
 ## Space Station Example
 
-[Open APIs From Space](http://open-notify.org/)
+There's an API in the [Open APIs From Space](http://open-notify.org/)
+that allows you to retrieve the position of the Internation Space
+Station (ISS).
 
-Code: [space_station_example](space_station_example)
+Let's take a look at some example code showing how we would do that:
+[space_station_example](space_station_example).
+
+### JSONP (Same-Origin Policy)
+
+One of the most important security measures in what's called the
+Same-Origin Policy which only permits scripts running on pages
+originating from the same site – a combination of scheme, hostname,
+and port number – to access each other's DOM with no specific
+restrictions, but prevents access to DOM on different sites. When
+you request JSON or other data from other sites using JavaScript, you
+may encounter this error which can be solved multiple ways, we will
+show you JSONP. JSONP allows you to make a request from one site for
+JSON data from another site.
+
+[Same-Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy)
 
 ## GitHub API Exercise
 
