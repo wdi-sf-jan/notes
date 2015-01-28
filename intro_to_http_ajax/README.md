@@ -89,6 +89,8 @@ Let's talk about `$.ajax`. But, before we talk about it, please [read the overvi
 ## Prep for exercises 4 and 5
 
 * Clone the repo [jquery ajax playground](https://github.com/wdi-sf-jan/jquery-ajax-playground) to your wdi exercises directory
+* Open up a terminal, follow the instructions in the repo's README 
+* Run `$ npm start` from where you cloned the repo
 
 ### Exercise 4
 
