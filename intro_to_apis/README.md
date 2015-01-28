@@ -63,6 +63,12 @@ Where else in computing do we see the term "interface"?
 - __Twilio has an API__
     - [http://www.twilio.com/api](http://www.twilio.com/api)
 
+## Space Station Example
+
+[Open APIs From Space](http://open-notify.org/)
+
+Code: [space_station_example](space_station_example)
+
 ## GitHub API Exercise
 
 Let's work through an
