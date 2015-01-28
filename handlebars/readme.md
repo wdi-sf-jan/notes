@@ -2,9 +2,9 @@
 
 ###What is handlebars anyway?
 * Handlebars is a front end templating framework
-* Front end templating is when you take a collection of data and display it in a specified way
+* Front end templating is taking a collection of data and displaying it in a specified way
 * Handlebars is great at displaying JSON
-* This solves the problem of creating everything with jQuery, which can become really messy quickly. Remember this?
+* Templating solves the problem of creating your HTML sturcture with jQuery functions, which can become really messy quickly. Remember this?
 
 ```
 // create unordered list and list item elements
@@ -20,12 +20,13 @@ ul.append(li);
 ```
 
 ###So how does it work?
-*	Handlebars templates are created with `<script>` tags in the html. The script tag just tells Handlebars which template to render, based on id, and are ignored once rendered. An example of a script tag is:
+*	Handlebars templates are created with `<script>` tags in the html. The script tag just tells Handlebars which template to render, based on id, and are ignored once rendered. An example of such a script tag is:
 
 ```
 <script id="my-template" type="text/x-handlebars-template">
 ```
-* The type must always be specified as `"text/x-handlebars-template"` for Handlebars to read the script
+
+* Take special note that the type must always be specified as `"text/x-handlebars-template"` for Handlebars to read the script
 * Inside of the script you can write html as normal (the script tag will probably make your colors funky in sublime, but no worries it all works the same)
 * Once you get JSON from an AJAX call, you can pull in the data in two ways:
 	* If you are only pulling in one object, an example could look like:
