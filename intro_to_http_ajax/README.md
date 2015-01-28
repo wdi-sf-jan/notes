@@ -86,6 +86,40 @@ Tim will talk about the latter in the afternoon.
 
 Let's talk about `$.ajax`. But, before we talk about it, please [read the overview](http://learn.jquery.com/ajax/) and [jquery ajax methods](http://learn.jquery.com/ajax/jquery-ajax-methods/) individually, and then discuss what you have found with a partner.
 
-## Exercise 4
+## Prep for exercises 4 and 5
+In your terminal: 
 
-Inline some HTML from another website into a page with `$.ajax`
+* Install [beefy](http://didact.us/beefy/):
+
+```
+$ sudo npm install -g beefy
+```
+
+* Make a new folder for exercises 4 and 5 and `cd` into it:
+
+```
+$ cd wherever_you_do_your_work
+$ mkdir jquery_ajax_playground
+$ cd jquery_ajax_playground
+```
+
+* Initialize a new node app
+
+```
+$ npm init
+```
+
+* Install browserify and beefy:
+
+```
+$ npm install --save-dev beefy
+$ npm install --save-dev browserify
+```
+
+### Exercise 4
+
+Insert/append some HTML from a file, let's say `greeting` in the same directory as your `index.html` file.
+
+### Exercise 5
+
+Insert/append some HTML, based on some JSON data in a json file, let's say `greeting.json`, in the same directory as your `index.html` file.
