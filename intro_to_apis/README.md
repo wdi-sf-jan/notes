@@ -5,11 +5,11 @@
 | Know what API stands for |
 | Not get scared when hear the term API |
 | See some examples of APIs |
-| Build OMDB API example |
+| Build GitHub API example |
 
-## Building from yesterday's lesson
+## Building from earlier lessons
 
-- Use jQuery's methods for calling APIs
+- Use jQuery's AJAX methods for calling APIs
 - Use jQuery's DOM methods for rendering data to the page.
 
 ## Questions to ask yourselves
@@ -23,7 +23,7 @@
 Programs talking to (i.e., interfacing with) each other.
 
 - Browser <-> Browser (e.g., Your JS talks to Google Maps within the browser)
-- Browser <-> Server (e.g., Your JS calls your server)
+- Browser <-> Server (e.g., Your JS calls a server)
 - Server <-> Server (e.g., Your server calls someone else's server)
 - Server <-> Database (e.g., Even your database has an API)
 
@@ -62,6 +62,12 @@ Where else in computing do we see the term "interface"?
     - [https://dev.twitter.com/rest/public](https://dev.twitter.com/rest/public)
 - __Twilio has an API__
     - [http://www.twilio.com/api](http://www.twilio.com/api)
+
+## GitHub API Exercise
+
+Let's work through an example of calling GitHub's API using AJAX.
+
+[https://github.com/wdi-sf-jan/github_api_example](https://github.com/wdi-sf-jan/github_api_example)
 
 ## Good API Design
 
