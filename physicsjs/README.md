@@ -2,6 +2,7 @@
 
 * [Installation](http://wellcaffeinated.net/PhysicsJS/installation)
 * [Basic Usage](http://wellcaffeinated.net/PhysicsJS/basic-usage)
+* [Fundamentals](https://github.com/wellcaffeinated/PhysicsJS/wiki/Fundamentals)
 * [Docs](http://wellcaffeinated.net/PhysicsJS/docs/)
 * [Wiki](https://github.com/wellcaffeinated/PhysicsJS/wiki)
 
