@@ -1,5 +1,10 @@
 # PhysicsJS Concepts and Introduction
 
+* [Installation](http://wellcaffeinated.net/PhysicsJS/installation)
+* [Basic Usage](http://wellcaffeinated.net/PhysicsJS/basic-usage)
+* [Docs](http://wellcaffeinated.net/PhysicsJS/docs/)
+* [Wiki](https://github.com/wellcaffeinated/PhysicsJS/wiki)
+
 ## The World
 
 ### The renderer
