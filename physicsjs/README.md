@@ -48,3 +48,10 @@
 ## Making things move
 
 ### Velocity
+
+#### Velocity to degrees
+
+`Math.atan2(y, x) * 180/Math.PI`
+
+#### Degrees to velocity
+
