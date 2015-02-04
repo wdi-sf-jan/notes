@@ -51,6 +51,7 @@ Week 3
 	* Afternoon - [Intro to APIs](intro_to_apis/)
 * Day 4
     * Morning - [Handlebars](handlebars/)
+    * Afternoon - Intro [Project 1](https://github.com/wdi-sf-jan/project-1-specs)
 
 Week 4 - Project Week Topics
 ------
