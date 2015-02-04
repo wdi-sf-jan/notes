@@ -49,8 +49,12 @@ Week 3
 * Day 3
 	* Morning - [Intro to HTTP and AJAX](intro_to_http_ajax/)
 	* Afternoon - [Intro to APIs](intro_to_apis/)
+* Day 4
+    * Morning - [Handlebars](handlebars/)
 
 Week 4 - Project Week Topics
 ------
 * Day 1
 	* [PhysicsJS Conepts and Intro](physicsjs/)
+* Day 3
+    * [Deployment](git_branch_pages/)
