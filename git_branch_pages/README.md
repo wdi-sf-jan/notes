@@ -82,3 +82,13 @@ GitHub Pages
 * [GitHub Pages landing page](https://pages.github.com/) (make sure to click on
   the "Project site" toggle near the top).
 * [GitHub Pages help page](https://help.github.com/categories/github-pages-basics/)
+
+Funtime Weekend Viewing
+
+* [Linus Torvalds on git](https://www.youtube.com/watch?v=4XpnKHJAok8)
+
+[Linus](http://en.wikipedia.org/wiki/Linus_Torvalds) started the
+development of Linux (which he refers to as the "kernel") and is also
+the initial author of Git. In this talk he discusses Git's strong
+points and criticizes some of its competitors (Subversion and CVS,
+mainly).
