@@ -58,4 +58,4 @@ Week 4 - Project Week Topics
 * Day 1
 	* [PhysicsJS Conepts and Intro](physicsjs/)
 * Day 3
-    * [Deployment](git_branch_pages/)
+    * [Deployment - BitBalloon & GitHub Pages](git_branch_pages/)

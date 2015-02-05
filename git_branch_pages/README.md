@@ -1,5 +1,5 @@
-BitBalloon & GitHub Pages & Git Branches
-========================================
+BitBalloon & GitHub Pages
+=========================
 
 So far you've been running your sites on your own computers but if
 you want to share your creations with other people, you're going to
