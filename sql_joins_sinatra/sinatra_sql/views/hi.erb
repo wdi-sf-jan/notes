@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="/main.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src = "/hello.js"></script>
+</head>
+<body>
+  <h1>Here is our users!</h1>
+  <% @users.each do |user| %>
+    <h2><%= user["name"]%></h2><a href="/edit/<%= user["id"]%>"> Edit a user</a>
+
+  <% end %>
+  <p>
+    <a href="/add">Add a user!</a>
+  </p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+<h1>Sup!</h1>
+  <form action="/edit/<%= @user["id"]%>" method="POST">
+    <input type="hidden" name="_method" value="put">
+    <input type="text" name="user" id="" value = "<%= @user["name"]%>">
+    <input type="submit" value="Edit">
+  </form>
+
+  <form action="/delete/<%= @user["id"]%>" method="POST">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Delete">
+  </form>
+</body>
+</html>
