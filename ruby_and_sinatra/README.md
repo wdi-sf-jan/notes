@@ -58,16 +58,16 @@ What happens?
 
 ## Reloading the application on changes
 
-Install the [shotgun gem](https://github.com/rtomayko/shotgun):
+Install sinatra-contrib
 
 ```
-$ gem install shotgun
+$ gem install sinatra-contrib
 ```
 
-Run your sinatra app with shotgun:
+Require sinatra-reloader
 
 ```
-$ shotgun app.rb
+require 'sinatra/reloader'
 ```
 
 ## Sinatra response fundamental piece of info:
