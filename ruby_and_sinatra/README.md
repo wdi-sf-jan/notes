@@ -58,17 +58,17 @@ What happens?
 
 ## Reloading the application on changes
 
-```
-$ gem install sinatra-contrib
-```
-
-Add the following line to your `sinatra_takes_the_stage/app.rb` file after `require 'sinatra'`:
+Install the [shotgun gem](https://github.com/rtomayko/shotgun):
 
 ```
-require "sinatra/reloader" if development?
+$ gem install shotgun
 ```
 
-This will ensure that any changes you make are reloaded on each request.
+Run your sinatra app with shotgun:
+
+```
+$ shotgun app.rb
+```
 
 ## Sinatra response fundamental piece of info:
 
