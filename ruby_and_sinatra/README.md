@@ -133,9 +133,11 @@ So this is cool, but let's do better, [better errors](https://github.com/charlie
 
 ## Afternoon lab: 
 
-With a partner, write the rest of the `get '/quote/:tag'` route to return sinatra quotes based on the tag. 
+* With a partner, write the rest of the `get '/quote/:tag'` route to return sinatra quotes based on the tag. 
 
-Think about what native ruby object you may want to use to store and quickly retrieve multiple quotes based on a tag.
+* Use [Frank Sinatra Quotes](http://www.goodreads.com/author/quotes/220471.Frank_Sinatra)
+
+* Think about what native ruby object you may want to use to store and quickly retrieve multiple quotes based on a tag.
 
 ## Afternoon lab refactor:
 
@@ -185,6 +187,8 @@ get '/quote' do
 end
 ```
 
-Your job for the rest of the day is to move your code from `app.rb` into `greeter.rb` as necessary. 
+Your job for the rest of the day is:
 
-Work with a partner.
+* Move your code from `app.rb` into `greeter.rb` as necessary
+* Bonus: 
+    * [figure out](http://www.sinatrarb.com/intro.html#Static%20Files) how to load static files in a sinatra app, and then load a random sinatra photo for the route `get /photo`. Add a class to the `Greeter` class to generate the random photo's path
