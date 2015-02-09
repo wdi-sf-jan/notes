@@ -59,3 +59,11 @@ Week 4 - Project Week Topics
 	* [PhysicsJS Conepts and Intro](physicsjs/)
 * Day 3
     * [Deployment - BitBalloon & GitHub Pages](git_branch_pages/)
+
+
+Week 5
+------
+* Day 1
+	* [Ruby within the context of building a web app](ruby_and_sinatra/)
+* Day 2
+	* Ruby within the context of building a web app, contd.
