@@ -192,4 +192,5 @@ Your job for the rest of the day is:
 * Move your code from `app.rb` into `greeter.rb` as necessary
 * Bonus: 
     * Have the `get /quote/:tag` route return a random quote from each category
-    * [figure out](http://www.sinatrarb.com/intro.html#Static%20Files) how to load static files in a sinatra app, and then load a random sinatra photo for the route `get /photo`. Add a class to the `Greeter` class to generate the random photo's path
+    * [figure out](http://www.sinatrarb.com/intro.html#Sending%20Files) how to load static files in a sinatra app, and then load a random sinatra photo for the route `get /photo`. Add a class to the `Greeter` class to generate the random photo's path
+        * **Note**: You'll have to find a stackoverflow post to help you figure out how to serve these photos, because sinatra won't load the photos from `public` directory by default. 
