@@ -129,28 +129,34 @@ Ruby.
 
 JavaScript:
 
-    var sayHello = function () {
-        console.log("Hello, World!");
-    };
+```javascript
+var sayHello = function () {
+    console.log("Hello, World!");
+};
 
-    sayHello();
+sayHello();
+```
 
 Ruby:
 
-    def say_hello
-        puts "Hello, World!"
-    end
+```ruby
+def say_hello
+    puts "Hello, World!"
+end
 
-    say_hello()
+say_hello()
+```
 
 ... is the same as ...
 
-    def say_hello
-        puts "Hello, World!"
-    end
+```ruby
+def say_hello
+    puts "Hello, World!"
+end
 
-    # note missing parentheses
-    say_hello
+# note missing parentheses
+say_hello
+```
 
 In Ruby, leaving the `()` off of a function call is acceptable. Since
 functions can't be passed as values (i.e., aren't first-class), Ruby
@@ -160,52 +166,64 @@ knows that we mean to call the function, so it calls it.
 
 JavaScript:
 
-    var sayHello = function (friend) {
-        console.log("Hello, " + friend + "!");
-    };
-    sayHello("Tim");
+```javascript
+var sayHello = function (friend) {
+    console.log("Hello, " + friend + "!");
+};
+sayHello("Tim");
+```
 
 Ruby:
 
-    def say_hello(friend)
-        puts "Hello, #{friend}!"
-    end
-    say_hello("Tim")
+```ruby
+def say_hello(friend)
+    puts "Hello, #{friend}!"
+end
+say_hello("Tim")
+```
 
 ... is the same as ...
 
-    def say_hello(friend)
-        puts "Hello, #{friend}!"
-    end
-    # note the lack of parentheses
-    say_hello "Tim"
+```ruby
+def say_hello(friend)
+    puts "Hello, #{friend}!"
+end
+# note the lack of parentheses
+say_hello "Tim"
+```
 
 ##### Return Values #####
 
 JavaScript:
 
-    var add = function (num1, num2) {
-        return num1 + num2;
-    };
-    var sum = add(2, 3);
-    console.log("2 + 3 = " + sum);
+```javascript
+var add = function (num1, num2) {
+    return num1 + num2;
+};
+var sum = add(2, 3);
+console.log("2 + 3 = " + sum);
+```
 
 Ruby:
 
-    def add(num1, num2)
-        return num1 + num2
-    end
-    sum = add(2, 3)
-    puts "2 + 3 = #{sum}"
+```ruby
+def add(num1, num2)
+    return num1 + num2
+end
+sum = add(2, 3)
+puts "2 + 3 = #{sum}"
+```
 
 ... is the same as ...
 
-    def add(num1, num2)
-        # note the lack of explicit return
-        num1 + num2
-    end
-    sum = add(2, 3)
-    puts "2 + 3 = #{sum}"
+```ruby
+def add(num1, num2)
+    # note the lack of explicit return
+    num1 + num2
+end
+sum = add(2, 3)
+puts "2 + 3 = #{sum}"
+```
 
 Ruby will automatically return the value of the last evaluated
 expression.  This is called having "implicit returns". You are free to
@@ -213,8 +231,18 @@ have an explicit return statement, but you don't have to.
 
 ... and finally ...
 
-    def add num1, num2
-        num1 + num2
-    end
-    sum = add 2, 3
-    puts "2 + 3 = #{sum}"
+```ruby
+def add num1, num2
+    num1 + num2
+end
+sum = add 2, 3
+puts "2 + 3 = #{sum}"
+```
+
+### Iterators
+
+Ruby has many / all of the iterator methods you've grown to love.
+
+
+[1,2,3].map do |num|
+
