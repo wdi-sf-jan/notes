@@ -28,76 +28,84 @@ We will convert the examples from our
 
 ##### If/Else #####
 
-    course = "wdi"
-    if course == "uxdi"
-        puts "Hello, User Experience Designer!"
-    elsif course == "fewd"
-        puts "Hello, Front-End Developer"
-    elsif course == "wdi"
-        puts "Hello, Immersed Student"
-    else
-        puts "Who are you?"
-    end
+```ruby
+course = "wdi"
+if course == "uxdi"
+    puts "Hello, User Experience Designer!"
+elsif course == "fewd"
+    puts "Hello, Front-End Developer"
+elsif course == "wdi"
+    puts "Hello, Immersed Student"
+else
+    puts "Who are you?"
+end
+```
 
 ##### Loops #####
 
-    i = 0
-    while i < 5 do
-       puts "i is " + i.to_s
-       i += 1
-    end
-
+```ruby
+i = 0
+while i < 5 do
+   puts "i is " + i.to_s
+   i += 1
+end
+```
 ... is the same as ...
 
-    i = 0
-    until i == 5 do
-       puts "i is " + i.to_s
-       i += 1
-    end
-
+```ruby
+i = 0
+until i == 5 do
+   puts "i is " + i.to_s
+   i += 1
+end
+```
 ... is the same as ...
 
-    5.times do |i|
-       puts "i is #{i}"
-    end
+```ruby
+5.times do |i|
+   puts "i is #{i}"
+end
 
-    # Will _all_ print out:
-    # >i is 0
-    # >i is 1
-    # >i is 2
-    # >i is 3
-    # >i is 4
-
+# Will _all_ print out:
+# >i is 0
+# >i is 1
+# >i is 2
+# >i is 3
+# >i is 4
+```
 ##### Iterating through Arrays #####
 
-    foods = ["carrots", "kale", "beets"]
-    foods.each do |vegetable|
-        puts "i like #{vegetable}"
-    end
-
+```ruby
+foods = ["carrots", "kale", "beets"]
+foods.each do |vegetable|
+    puts "i like #{vegetable}"
+end
+```
 ... is the same as ...
 
-    for veg in ["carrots", "kale", "beets"] do
-        puts "i like #{veg}"
-    end
+```ruby
+for veg in ["carrots", "kale", "beets"] do
+    puts "i like #{veg}"
+end
 
-    # Will _each_ print out:
-    # >i like carrots
-    # >i like kale
-    # >i like beets
-
+# Will _each_ print out:
+# >i like carrots
+# >i like kale
+# >i like beets
+```
 ##### Iterating through Hashes #####
 
-    car = {wheels: 4,doors: 2,seats: 5}
-    car.each do |key, num|
-      puts "my car has #{num} #{key}"
-    end
+```ruby
+car = {wheels: 4,doors: 2,seats: 5}
+car.each do |key, num|
+  puts "my car has #{num} #{key}"
+end
 
-    # Will print out:
-    # my car has 4 wheels
-    # my car has 2 doors
-    # my car has 5 seats
-
+# Will print out:
+# my car has 4 wheels
+# my car has 2 doors
+# my car has 5 seats
+```
 ### Functions
 
 #### Javascript
