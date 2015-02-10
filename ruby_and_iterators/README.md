@@ -273,7 +273,7 @@ Filter (i.e., [Select](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-se
 [1,2,3].select do |num|
     num % 2 == 0
 end
-# [2]
+# returns [2]
 ```
 
 [Reduce](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-reduce)
@@ -289,4 +289,5 @@ end
 ["tim", "bob", "frank"].inject do |jumbledMess, name|
     jumbledMess.concat(name)
 end
+# returns "timbobfrank"
 ```
