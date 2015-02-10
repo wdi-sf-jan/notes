@@ -23,9 +23,6 @@
 
 #### Examples
 
-We will convert the examples from our
-[JavaScript Control Flow lesson](https://github.com/wdi-sf-fall/notes/blob/master/week_01_fundamentals/day_3_intro_to_javascript/dusk_control_flow_and_functions/control_flow.md)
-
 ##### If/Else #####
 
 ```ruby
