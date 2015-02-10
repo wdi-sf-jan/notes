@@ -121,10 +121,21 @@ We will convert the examples from our
 
 #### Examples
 
-Convert several examples from our
-[JavaScript Functions lesson](https://github.com/wdi-sf-fall/notes/blob/master/week_01_fundamentals/day_3_intro_to_javascript/dusk_control_flow_and_functions/functions.md#javascript-functions)
+Convert several examples of JavaScript functions into the equivalent
+Ruby.
+
 
 ##### Syntax #####
+
+JavaScript:
+
+    var sayHello = function () {
+        console.log("Hello, World!");
+    };
+
+    sayHello();
+
+Ruby:
 
     def say_hello
         puts "Hello, World!"
@@ -147,6 +158,15 @@ knows that we mean to call the function, so it calls it.
 
 ##### Parameters (Arguments) #####
 
+JavaScript:
+
+    var sayHello = function (friend) {
+        console.log("Hello, " + friend + "!");
+    };
+    sayHello("Tim");
+
+Ruby:
+
     def say_hello(friend)
         puts "Hello, #{friend}!"
     end
@@ -161,6 +181,16 @@ knows that we mean to call the function, so it calls it.
     say_hello "Tim"
 
 ##### Return Values #####
+
+JavaScript:
+
+    var add = function (num1, num2) {
+        return num1 + num2;
+    };
+    var sum = add(2, 3);
+    console.log("2 + 3 = " + sum);
+
+Ruby:
 
     def add(num1, num2)
         return num1 + num2
@@ -180,6 +210,14 @@ knows that we mean to call the function, so it calls it.
 Ruby will automatically return the value of the last evaluated
 expression.  This is called having "implicit returns". You are free to
 have an explicit return statement, but you don't have to.
+
+... and finally ...
+
+    def add num1, num2
+        num1 + num2
+    end
+    sum = add 2, 3
+    puts "2 + 3 = #{sum}"
 
 ### Input / Output
 
