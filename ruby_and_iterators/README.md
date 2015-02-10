@@ -1,5 +1,5 @@
-# Intro To Ruby
-## Control Flow and Functions
+# Ruby
+## Control Flow, Functions, and Iterators
 
 ### Control flow
 
