@@ -112,8 +112,8 @@ end
     * named: `function Name(param1, [..param2, [...]]){...}`
     * uses lexical scope
     * used as values
-    * require explicit return
-    * all `params` are optional
+    * require explicit `return`
+    * all params are optional
 
 ### Ruby
 
@@ -122,7 +122,7 @@ end
     * does not capture scope
     * not used as values
     * optional parameters must be specified
-    * implicitly returns last evaluation
+    * implicitly `return`s last evaluation
 
 #### Examples
 
