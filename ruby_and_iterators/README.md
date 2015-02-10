@@ -249,8 +249,44 @@ puts "2 + 3 = #{sum}"
 
 ### Iterators
 
-Ruby has many / all of the iterator methods you've grown to love.
+Ruby has many / all of the iterator methods you've grown to
+love. Sometimes they even have fun new names.
 
+[Map](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-map)
+(i.e., [Collect](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-collect))
 
+```ruby
 [1,2,3].map do |num|
+    num * 5
+end
 
+[1,2,3].collect do |num|
+    num * 5
+end
+
+# both return [5,10,15]
+```
+
+Filter (i.e., [Select](http://www.ruby-doc.org/core-2.2.0/Array.html#method-i-select))
+
+```ruby
+[1,2,3].select do |num|
+    num % 2 == 0
+end
+# [2]
+```
+
+[Reduce](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-reduce)
+(i.e.,
+[Inject](http://ruby-doc.org/core-2.2.0/Enumerable.html#method-i-inject))
+
+```ruby
+[1,2,3].reduce do |totalSoFar, num|
+    totalSoFar + num
+end
+# returns 6
+
+["tim", "bob", "frank"].inject do |jumbledMess, name|
+    jumbledMess.concat(name)
+end
+```
