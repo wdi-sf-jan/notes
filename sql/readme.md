@@ -263,38 +263,42 @@ ADD A FOREIGN KEY
 
 ### Start by creating a table
 
+```
 CREATE TABLE students(student_id SERIAL PRIMARY KEY, name VARCHAR(100), age INTEGER);
+```
 
 Different data types, VARCHAR, TEXT, FLOAT, INTEGER, PG even stores arrays and json!
 
 ## Add a student
 
-INSERT INTO students (name,age) VALUES ('Elie',26);
+`INSERT INTO students (name,age) VALUES ('Elie',26);`
 
 ## Find the student
 
+```
 SELECT * FROM students;
 SELECT age FROM students;
 SELECT name FROM students;
-
+```
 ## Find a student more:
 
-SELECT * (or columns separated by comma) FROM students WHERE _____;
+`SELECT * (or columns separated by comma) FROM students WHERE _____;`
 
-SELECT * FROM students WHERE age < 33;
+`SELECT * FROM students WHERE age < 33;`
 
 ## Update a student
 
-UPDATE students  SET name = 'Tom' WHERE name = 'Bob';
+`UPDATE students  SET name = 'Tom' WHERE name = 'Bob';`
 
 ## Delete a student
 
-DELETE FROM students WHERE name = 'Tom';
+`DELETE FROM students WHERE name = 'Tom';`
 
 ## Selecting specific data
 
-Not equal - <>
+`Not equal - <>`
 
+```
 - LIKE - SELECT * FROM students WHERE name LIKE '%';
 - ORDER BY - SELECT * FROM students ORDER BY name DESC;
 - COUNT - SELECT count(*) FROM students;
@@ -308,29 +312,38 @@ Not equal - <>
 - OFFSET - SELECT * FROM students OFFSET 1;
 - LIMIT + OFFSET - SELECT * FROM students LIMIT 2 OFFSET 1;
 - % - SELECT * FROM students WHERE name LIKE '%b';
+```
 
 # Joins and FK
 
-
+```
 CREATE TABLE books (book_id SERIAL PRIMARY KEY, name VARCHAR(100), authorId INTEGER);
 CREATE TABLE authors (author_id SERIAL PRIMARY KEY, name VARCHAR(100));
-
+```
+```
 INSERT INTO authors (name) values ('Elie');
 INSERT INTO authors (name) values ('Bob');
-
+```
+```
 INSERT INTO books (name, authorId) values ('Book 1', 1);
 INSERT INTO books (name, authorId) values ('Book 1', 2);
+```
 
+```
+SELECT * FROM authors JOIN books on authors.author_id = books.authorId ORDER BY author_id ASC;
+```
 
-select * from authors join books on authors.author_id = books.authorId ORDER BY author_id ASC;
-
-
+```
 ALTER TABLE books ADD CONSTRAINT author_fk FOREIGN KEY (authorId) REFERENCES authors (author_id) ON DELETE NO ACTION;
+```
 
+```
 ALTER TABLE books ADD COLUMN author_id INTEGER;
+```
 
+```
 ALTER TABLE books ADD CONSTRAINT name_of_fk FOREIGN KEY (keyInTable) REFERENCES tableName (id) ON DELETE NO ACTION;
-
+```
 
 
 
