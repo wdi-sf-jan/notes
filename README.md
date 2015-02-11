@@ -67,3 +67,5 @@ Week 5
 	* [Ruby within the context of building a web app](ruby_and_sinatra/)
 * Day 2
     * [Ruby - Control Flow, Functions, and Iterators](ruby_and_iterators/)
+* Day 3
+    * [Building a web app, with HTML and all the verbs](ruby_and_sinatra/full_crud.md)
