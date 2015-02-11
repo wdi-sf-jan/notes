@@ -1,5 +1,5 @@
-WDI SF January Notes
-====================
+WDI SF January 2015 Notes
+=========================
 
 Week 1
 ------
