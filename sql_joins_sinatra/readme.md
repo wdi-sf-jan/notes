@@ -1,12 +1,57 @@
-#SQL Joins
+#SQL + Sinatra
 
 ##Learning Objectives
-- define joins
-- define join table
-- define primary key
-- define foreign key
-- list types of joins
-- explain what each type of join retrieves
+- Combine our knowledge of SQL and Ruby
+- Understand how to connect Postgres with Sinatra
+- Explain what configuration settings are in Sinatra
+- Build our first full-stack CRUD, database backed application! 
+
+
+## Getting Started
+
+## Including the pg gem in our Sinatra app
+
+https://bitbucket.org/ged/ruby-pg/wiki/Home
+
+`require 'pg'` and make sure that the postgres server is running! Look for the elephant in the top of your screen.
+
+##### Configuration
+http://www.sinatrarb.com/configuration.html
+
+```
+set :conn, PG.connect( dbname: 'testing')
+```
+
+We now have access to the conn property on top of the settings object.
+
+##### Configuration as a block
+
+```
+configure do
+  set :conn, PG.connect( dbname: 'testing' )
+end
+```
+##### Including the connection instance variable
+
+```
+before do
+  @conn = settings.conn
+end
+```
+
+## Writing SQL Queries in a route
+
+Once you have connected successfully, you can now write SQL using the .exec method!
+
+The exec method takes an SQL query as a parameter and returns an array of values (as a hash for each row).
+
+##### Passing in paramters
+
+The second parameter to the exec method is an array of parameters. In SQL we specify parameters by using the $. An example of this would be:
+
+`user = @conn.exec('SELECT * FROM authors WHERE id = ($1)', [ id ])`
+
+#SQL Joins Continued (Optional reading if you are interested)
 
 ##Why are Joins Important
 
