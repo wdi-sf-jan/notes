@@ -70,5 +70,5 @@ Week 5
 * Day 3
     * [Building a web app, with HTML and all the verbs](ruby_and_sinatra/full_crud.md)
 * Day 4
-    * Morning - Intro to SQL [Intro to SQL](sql/)
-    * Afternoon - SQL + Sinatra [SQL + Sinatra](sql_joins_sinatra)
+    * Morning - [Intro to SQL](sql/)
+    * Afternoon - [SQL + Sinatra](sql_joins_sinatra)
