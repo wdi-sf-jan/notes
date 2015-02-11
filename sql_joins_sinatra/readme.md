@@ -6,25 +6,24 @@
 - Explain what configuration settings are in Sinatra
 - Build our first full-stack CRUD, database backed application! 
 
+## Including the pg gem in our Sinatra app + configuring our application
 
-## Getting Started
 
-## Including the pg gem in our Sinatra app
+You can read more about the pg gem [here](https://bitbucket.org/ged/ruby-pg/wiki/Home)
 
-https://bitbucket.org/ged/ruby-pg/wiki/Home
-
-`require 'pg'` and make sure that the postgres server is running! Look for the elephant in the top of your screen.
+To start, add `require 'pg'` at the top of your ruby file and make sure that the Postgres server is running! Look for the elephant in the top of your screen.
 
 ##### Configuration
-http://www.sinatrarb.com/configuration.html
+
+In order to not repeat ourselves a couple times, we are going to set some configuration variables in our sinatra app. You can read some more about that [here](http://www.sinatrarb.com/configuration.html). To get started, the syntax looks like this.
 
 ```
 set :conn, PG.connect( dbname: 'testing')
 ```
 
-We now have access to the conn property on top of the settings object.
+When we use the configuration settings in sinatra, any variable that we add gets attached to the `settings` object. Right now, ee are setting a variable called 'conn' which has a value equal to the result of `PG.connect( dbname: 'testing')`. In order to access this new variable conn that we created, we use `settings.conn`
 
-##### Configuration as a block
+We can also wrap our configurations in a block: 
 
 ```
 configure do
@@ -32,6 +31,8 @@ configure do
 end
 ```
 ##### Including the connection instance variable
+
+Now that we have defined 'conn' using the Sinatra configuration, we will create an instance variable which stores the result of settings.conn and is applied before any code runs in our routes.
 
 ```
 before do
@@ -41,7 +42,7 @@ end
 
 ## Writing SQL Queries in a route
 
-Once you have connected successfully, you can now write SQL using the .exec method!
+Once you have connected successfully, you can now write SQL using the .exec method.
 
 The exec method takes an SQL query as a parameter and returns an array of values (as a hash for each row).
 
@@ -51,9 +52,11 @@ The second parameter to the exec method is an array of parameters. In SQL we spe
 
 `user = @conn.exec('SELECT * FROM authors WHERE id = ($1)', [ id ])`
 
-#SQL Joins Continued (Optional reading if you are interested)
+-------------------------------------------
 
-##Why are Joins Important
+###SQL Joins Continued (Optional reading if you are interested)
+
+###Why are Joins Important
 
 The main function of a relational database is so that data can relate to each other. If we had users, and they wrote blog posts, it is important that we know which users wrote which posts.  
 
