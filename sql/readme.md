@@ -1,4 +1,4 @@
-Introduction To Databasess
+Introduction To Databases
 ==================
 
 ## Objectives And Scope
