@@ -156,7 +156,7 @@ Once we connect, our command prompt should look similar to this: ```testdb=#```
 List our tables:
 
 ```
-\list
+\dt
 ```
 
 ## What is a schema?
