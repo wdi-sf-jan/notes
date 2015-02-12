@@ -70,7 +70,7 @@ Why is it better than just writing to files?
 
 ## Types of Databases
 
-__RDBMS (Relational Database Management System)__ The most common type of database today is a __relational database__.  Relational databases have tabular data with rows for each instance of data and columns for each attribut of that data.  Tables may refer to one another.  Relational databases typically use __SQL (Structured Query Language)__.
+__RDBMS (Relational Database Management System)__ The most common type of database today is a __relational database__.  Relational databases have tabular data with rows for each instance of data and columns for each attribute of that data.  Tables may refer to one another.  Relational databases typically use __SQL (Structured Query Language)__.
 
 **Brands of RDBMS:**
 
