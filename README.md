@@ -76,4 +76,8 @@ Week 5
 Week 6
 ------
 * Day 1
+    * No class - Presidents' Day
+* Day 2
     * [Ruby OOP Intro](ruby_oop/)
+* Day 3
+    * [Sinatra and ActiveRecord](active_record_sinatra/)
