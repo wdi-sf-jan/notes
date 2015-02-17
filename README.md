@@ -72,3 +72,8 @@ Week 5
 * Day 4
     * Morning - [Intro to SQL](sql/)
     * Afternoon - [SQL + Sinatra](sql_joins_sinatra)
+
+Week 6
+------
+* Day 1
+    * [Ruby OOP Intro](ruby_oop/)
