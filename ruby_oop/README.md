@@ -5,6 +5,17 @@
 * Understand the purposes of OOP
 * Practice by refactoring non-OOP code from the weekend lab
 
+## Variable scope
+
+### Today's focus
+* **Local variables**
+* **Instance variables**
+
+### Other variable scopes:
+* Class variables (tsk tsk)
+* Global variables (tsk tsk)
+* Constants
+
 ## self
 
 The current object
