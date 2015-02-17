@@ -15,6 +15,7 @@
 * Class variables (tsk tsk)
 * Global variables (tsk tsk)
 * Constants
+* Block scope
 
 ## self
 
