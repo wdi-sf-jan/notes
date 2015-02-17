@@ -37,9 +37,17 @@ Variables intended to maintain the private state of an object
 
 Methods intended to get the values of IVars (but, may be more complex)
 
+### attr_reader
+
 ## Setters/Writers
 
 Methods intended to set the values of IVars (but, may be more complex)
+
+### attr_writer
+
+## Getts & Setters
+
+### attr_accessor
 
 ## Inheritance
 
