@@ -82,7 +82,7 @@ Week 6
 * Day 3
     * [Sinatra and ActiveRecord](active_record_sinatra/)
 * Day 4
-    * Morning - [Intro to Rails](rails_intro)
-    * Afternoon - [Simple CRUD with Rails ](rails_crud)
+    * Morning - [Intro to Rails](intro to rails)
+    * Afternoon - [Simple CRUD with Rails ](rails_CRUD)
 * Day 5
-    * [Rails CRUD Refactored](rails_crud_refactored/)
+    * [Rails CRUD Refactored](rails_crud_refactor/)
