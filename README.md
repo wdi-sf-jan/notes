@@ -81,3 +81,8 @@ Week 6
     * [Ruby OOP Intro](ruby_oop/)
 * Day 3
     * [Sinatra and ActiveRecord](active_record_sinatra/)
+* Day 4
+    * Morning - [Intro to Rails](rails_intro)
+    * Afternoon - [Simple CRUD with Rails ](rails_crud)
+* Day 5
+    * [Rails CRUD Refactored](rails_crud_refactored/)
