@@ -88,6 +88,11 @@ You'll find that ActiveRecord provide all the methods we worked on yesterday:
 
 [CRUD: Reading and Writing Data](http://guides.rubyonrails.org/active_record_basics.html#crud-reading-and-writing-data)
 
+In-class Exercise
+-----------------
+
+[https://github.com/wdi-sf-jan/snack_exercise](https://github.com/wdi-sf-jan/snack_exercise)
+
 Lab
 ---
 
