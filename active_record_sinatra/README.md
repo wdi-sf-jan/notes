@@ -98,6 +98,12 @@ Lab
 
 [https://github.com/wdi-sf-jan/music_lab](https://github.com/wdi-sf-jan/music_lab)
 
+To complete the lab, you may want to consult:
+
+- These very notes.
+- The notes in the README.md of the in-class exercise.
+- The code we wrote for the in-class exercise.
+- The resources below (and any others you like).
 
 Resources
 ---------
