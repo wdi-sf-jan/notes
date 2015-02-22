@@ -85,7 +85,7 @@ Week 6
     * Morning - [Intro to Rails](intro to rails)
     * Afternoon - [Simple CRUD with Rails ](rails_CRUD)
 * Day 5
-    * [Rails CRUD Refactored](rails_crud_refactor/)
+    * [Rails CRUD Refactored](rails_CRUD_refactor/)
     
 Week 7
 ------
