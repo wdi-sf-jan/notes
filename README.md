@@ -86,3 +86,8 @@ Week 6
     * Afternoon - [Simple CRUD with Rails ](rails_CRUD)
 * Day 5
     * [Rails CRUD Refactored](rails_crud_refactor/)
+    
+Week 7
+------
+* Day 1
+    * [Many to Many associations](many_to_many_rails/) 
