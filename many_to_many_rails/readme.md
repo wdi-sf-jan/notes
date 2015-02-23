@@ -5,7 +5,7 @@
 Example:
 
 One Owner `has_many` pets and 
-Many Pets `belogs_to` one owner
+Many Pets `belongs_to` one owner
 
 (FK goes in the pets table)
 
