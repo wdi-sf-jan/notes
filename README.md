@@ -95,4 +95,4 @@ Week 7
     * [Authentication in rails](rails_auth/) 
 * Day 3
     * [Polymorphic Associations](rails_polymorphic/)
-    * [Partials](rails_partials/)
+    * [Partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
