@@ -91,3 +91,5 @@ Week 7
 ------
 * Day 1
     * [Many to Many associations](many_to_many_rails/) 
+* Day 2
+    * [Authentication in rails](rails_auth/) 
