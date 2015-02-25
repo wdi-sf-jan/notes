@@ -4,7 +4,7 @@ What is polymorphism in programming?
 
 > Polymorphism - the provision of a single interface to entities of different types 
 > 
-> -[Bjarne Stroustrup](Bjarne Stroustrup)
+> -[Bjarne Stroustrup](http://en.wikipedia.org/wiki/Bjarne_Stroustrup)
 
 How does this apply to the world of Rails?
 
