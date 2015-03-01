@@ -96,3 +96,8 @@ Week 7
 * Day 3
     * [Polymorphic Associations](rails_polymorphic/)
     * [Partials](http://guides.rubyonrails.org/layouts_and_rendering.html#using-partials)
+
+Week 8
+------
+* Day 1
+    * [OAuth and Omniauth](oauth_rails/) 
