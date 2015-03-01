@@ -1,6 +1,6 @@
 ## OAuth and Omniauth
 
-### What is it?
+### What is OAuth?
 
 From Wikipedia: 
 
