@@ -101,3 +101,6 @@ Week 8
 ------
 * Day 1
     * [OAuth and Omniauth](oauth_rails/) 
+* Day 2
+* Day 3
+    * [Feature Specs with RSpec](feature_specs/)
