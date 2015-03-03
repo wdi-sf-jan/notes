@@ -100,6 +100,11 @@ respond to both HTML and JSON requests.
 
 [More on respond_to](http://apidock.com/rails/ActionController/MimeResponds/respond_to)
 
+Lab
+---
+
+[https://github.com/wdi-sf-jan/omdb_rails_lab](https://github.com/wdi-sf-jan/omdb_rails_lab)
+
 Resources
 ---------
 
