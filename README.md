@@ -100,7 +100,8 @@ Week 7
 Week 8
 ------
 * Day 1
-    * [OAuth and Omniauth](oauth_rails/) 
+    * [OAuth and Omniauth](oauth_rails/)
 * Day 2
+    * [Typhoeus, Rails, and JSON APIs](rails_json/)
 * Day 3
     * [Feature Specs with RSpec](feature_specs/)
