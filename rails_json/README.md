@@ -56,7 +56,7 @@ Make an HTTP request to an API, possibly from within a controller:
 request = Typhoeus::Request.new(
   "www.example.com",
   method: :get,
-  params: {s: "True Grit"}
+  params: {title: "True Grit"}
 )
 request.run
 puts "body of the response is #{request.response.body}"
