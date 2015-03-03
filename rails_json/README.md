@@ -16,6 +16,12 @@ Remember the AJAX
     - GitHub Image viewer
     - [Space Station tracker](http://iss.astroviewer.net/)
 
+```javascript
+$.getJSON("test.json", {name:"John", time:"2pm"}, function(data) {
+  console.log("JSON Data: ", data);
+});
+```
+
 Never forget the JSON
 ---------------------
 
