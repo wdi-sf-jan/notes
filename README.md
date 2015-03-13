@@ -105,3 +105,8 @@ Week 8
     * [Typhoeus, Rails, and JSON APIs](rails_json/)
 * Day 3
     * [Feature Specs with RSpec](feature_specs/)
+
+Week 9
+------
+* Day 1
+    * [Intro to Data Structures and Algorithms](ds_algorithms/)
