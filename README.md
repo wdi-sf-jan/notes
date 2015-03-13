@@ -106,7 +106,7 @@ Week 8
 * Day 3
     * [Feature Specs with RSpec](feature_specs/)
 
-Week 9
+Week 10
 ------
 * Day 1
     * [Intro to Data Structures and Algorithms](ds_algorithms/)
