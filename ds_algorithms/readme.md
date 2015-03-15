@@ -305,8 +305,6 @@ Algorithms are:
 - They take input
 - They produce output
 
-Just like in our explanation of data structures
-
 ## Some common sorting algorithms 
 
 Below you will see four common sorting algorithms and some links to see them in action. One of the best ways to learn these algorithms is to try to implement them yourself. Use sticky notes, a pen and paper, cups, colored blocks or whatever you find best and try to recreate these sorting scenarios. Not only will this help you tremendously in your understanding of the algorithm, but it is __essential__ to have a fundamental knowledge before trying to implement them.
