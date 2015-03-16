@@ -344,6 +344,7 @@ And here is an example of the process
 
 ![http://www.personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/Gifs/mergeSort.gif](http://www.personal.kent.edu/~rmuhamma/Algorithms/MyAlgorithms/Sorting/Gifs/mergeSort.gif)
 
+Merge sorts are so efficient because their complex is always O(n log(n)).
 
 ## Some common searching algorithms 
 
