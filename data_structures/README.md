@@ -146,6 +146,23 @@ The two main approaches are:
 DFS is the easiest to implement is the one you should tackle first in
 your programming careers.
 
+### Recursion ###
+
+![Picture within a Picture](recursion.jpg)
+
+[http://en.wikipedia.org/wiki/Recursion](http://en.wikipedia.org/wiki/Recursion)
+
+A function can call itself. The process of a function calling itself
+is called recursion.
+
+Some problems lend themselves to recursive solutions. These are
+generally computer science-y questions that interviews love to ask.
+
+#### Famous Recursive Problems ####
+
+1. Factorial
+2. Fibonacci sequence
+3. Tree/Graph traversal
 
 Big-O Notation
 --------------
