@@ -146,29 +146,6 @@ The two main approaches are:
 DFS is the easiest to implement is the one you should tackle first in
 your programming careers.
 
-### Exercise ###
-
-__Implement a Tree__
-
-1. Need to create a representation of a Node (or Vertex).
-2. Write a method `add_child` to add a new child with the given value.
-3. Write a method `find` to search a Tree for a value. (Hint: DFS)
-
-### Specific Types of Trees ###
-
-* Binary Trees
-    - Each node has zero, one, or two children. This assertion makes
-      many tree operations simple and efficient.
-* Binary Search Trees
-    - A binary tree where any left child node has a value less than
-      its parent node and any right child node has a value greater
-      than or equal to that of its parent node.
-* Heaps
-    - See [wikibooks][wiki_heaps] for proper definition.
-    - Simplified version: a (usually binary) tree where the biggest
-      element is always at the top.
-* [Tries][wiki_tries]
-    - Useful for autocompletion.
 
 Big-O Notation
 --------------
@@ -205,7 +182,6 @@ Resources
 * [Data Structure on Wikipedia][data_structure]
 * [Array on Wikipedia][wiki_array]
 * [Trees on Wikibooks][wiki_trees]
-* [Heaps on Wikibooks][wiki_heaps]
 * [Big-O Cheat Sheet][bigo_cheat]
 * [64-bit Computing][wiki_64_bit]
 
@@ -214,8 +190,6 @@ Resources
 [wiki_array]: http://en.wikipedia.org/wiki/Array_data_structure
 [wiki_list]: http://en.wikipedia.org/wiki/Linked_list
 [wiki_trees]: http://en.wikibooks.org/wiki/Data_Structures/Trees
-[wiki_heaps]: http://en.wikibooks.org/wiki/Data_Structures/Min_and_Max_Heaps
-[wiki_tries]: http://en.wikipedia.org/wiki/Trie
 [wiki_bigo]: http://en.wikipedia.org/wiki/Big_O_notation
 [bigo_cheat]: http://bigocheatsheet.com/
 [wiki_64_bit]: http://en.wikipedia.org/wiki/64-bit_computing
