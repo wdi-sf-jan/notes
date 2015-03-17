@@ -164,42 +164,12 @@ generally computer science-y questions that interviews love to ask.
 2. Fibonacci sequence
 3. Tree/Graph traversal
 
-Big-O Notation
---------------
-
-> In computer science, big O notation is used to classify
-> algorithms by how they respond (e.g., in their processing time
-> or working space requirements) to changes in input size.
-> -- <cite>[Wikipedia][wiki_bigo]</cite>
-
-Since a big issue when discussing data structures is their efficiency
-in the face of certain tasks, we want to use a common language to
-discuss such (in)efficiencies. Normally, we are interested in how much
-memory or processing time is needed to complete the task depending on
-the size of the input. We often let _n_ represent the input size.
-
-So, an algorithm that is O(1), is said to be "Big O of 1" or
-"constant", and does not vary depending on the size of the input. This
-is good. This is fast even for very large _n_.
-
-An algorithm that is O(n), is said to be "Big O of _n_" or "linear", and
-this indicates that the resources required grow proportionally to the
-size of the input. This is reasonable performance.
-
-Another that is O(n^2), is said to be "Big O of _n_ squared" and it means
-the resources grow in proportion to the square of the input. This is
-slow. Think of really big numbers and then think of them squared.
-
-See the [Cheat Sheet][bigo_cheat] for some other common time
-(processing time) and space (memory) complexities and their notations.
-
 Resources
 ---------
 
 * [Data Structure on Wikipedia][data_structure]
 * [Array on Wikipedia][wiki_array]
 * [Trees on Wikibooks][wiki_trees]
-* [Big-O Cheat Sheet][bigo_cheat]
 * [64-bit Computing][wiki_64_bit]
 
 [data_structure]: http://en.wikipedia.org/wiki/Data_structure
@@ -207,8 +177,6 @@ Resources
 [wiki_array]: http://en.wikipedia.org/wiki/Array_data_structure
 [wiki_list]: http://en.wikipedia.org/wiki/Linked_list
 [wiki_trees]: http://en.wikibooks.org/wiki/Data_Structures/Trees
-[wiki_bigo]: http://en.wikipedia.org/wiki/Big_O_notation
-[bigo_cheat]: http://bigocheatsheet.com/
 [wiki_64_bit]: http://en.wikipedia.org/wiki/64-bit_computing
 [wiki_dfs]: http://en.wikipedia.org/wiki/Depth-first_search
 [wiki_bfs]: http://en.wikipedia.org/wiki/Breadth-first_search
