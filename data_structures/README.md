@@ -164,6 +164,8 @@ generally computer science-y questions that interviews love to ask.
 2. Fibonacci sequence
 3. Tree/Graph traversal
 
+![Shape of recursive factorial](fact-shape.gif)
+
 Resources
 ---------
 
