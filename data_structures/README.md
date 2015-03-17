@@ -169,6 +169,7 @@ Resources
 
 * [Data Structure on Wikipedia][data_structure]
 * [Array on Wikipedia][wiki_array]
+* [Linked Lists on Wikipedia][wiki_list]
 * [Trees on Wikibooks][wiki_trees]
 * [64-bit Computing][wiki_64_bit]
 
