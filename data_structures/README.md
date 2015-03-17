@@ -74,13 +74,13 @@ Array. You just take the starting address and move over _n_ spots.
 This is bad because if you want to add an element to the array, you
 need to acquire an additional mailbox, but one that is next to your
 existing mailboxes might not be available. In that case you'll need to
-request 11 sequential addresses and copy your whole array into the new
-space.
+vacate your previous 10 mailboxes and find 11 new sequential addresses
+and copy your whole array into the new space.
 
-_This is an oversimplification but it is close enough of a model to
-illustrate the tradeoffs being made with a theoretical Array. In
-practice, Arrays in JavaScript or Ruby will be smarter than this and
-do a better job of managing memory._
+_This is an oversimplification but it is close enough to illustrate
+the tradeoffs being made with a theoretical Array. In practice, Arrays
+in JavaScript or Ruby will be smarter than this and do a better job of
+managing memory._
 
 -------------------------------------------------------------------------
 
