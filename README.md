@@ -110,6 +110,8 @@ Week 10
 ------
 * Day 1
     * [Intro to Data Structures and Algorithms](ds_algorithms/)
+* Day 2
+    * [More Data Structures](data_structures/)
 * Day 3
     * Morning - [Intro to Node and Express.js](node_express/)
     * Afternoon - [Intro to Redis](redis_node/)
