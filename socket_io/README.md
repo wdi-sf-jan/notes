@@ -18,8 +18,8 @@ for both sides to send messages back and forth.
 
 ![WebSocket Graphic](websocket-client-server.png)
 
-Ignore the SSE portion of the below graphic.  XHR is like your AJAX
-(XmlHttpRequest). Note the difference between AJAX and WebSocket. In
+Ignore the SSE portion of the below graphic.  XHR (XmlHttpRequest) is
+like your AJAX. Note the difference between AJAX and WebSocket. In
 AJAX all interaction need to be initiated by the client. In the
 WebSocket example, the server is able to send messages at its leisure.
 
