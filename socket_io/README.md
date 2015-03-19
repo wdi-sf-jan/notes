@@ -82,7 +82,6 @@ Chat application
 8. See (2)
 9. "Broadcasting".
 10. See (2)
-11. Your homework is their "Homework". This is optional.
 
 ### Notes
 
