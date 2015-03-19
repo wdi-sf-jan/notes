@@ -82,6 +82,7 @@ Chat application
 8. See (2)
 9. "Broadcasting".
 10. See (2)
+11. Check out their "Homework" section for further ideas.
 
 ### Notes
 
