@@ -84,24 +84,6 @@ Chat application
 10. See (2)
 11. Your homework is their "Homework". This is optional.
 
-### Notes
-
-- Can I set up my Express server like I'm used to or do I have to
-  follow the Socket.IO tutorial exactly?
-
-    - Generally good to try your own code to see if things work the
-      way you think they do.
-
-- `res.sendFile(__dirname + '/index.html');` works but later on they
-  show `res.sendfile('index.html');`.
-
-    - This is fixed in a yet unmerged pull request.
-
-- `<script src="/socket.io/socket.io.js">` changed to `<script
-  src="https://cdn.socket.io/socket.io-1.2.0.js">`
-
-- `return false` instead of `event.preventDefault()`?
-
 Resources
 ---------
 
