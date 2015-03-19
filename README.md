@@ -115,3 +115,5 @@ Week 10
 * Day 3
     * Morning - [Intro to Node and Express.js](node_express/)
     * Afternoon - [Intro to Redis](redis_node/)
+* Day 4
+    * [Socket.IO](socket_io/)
