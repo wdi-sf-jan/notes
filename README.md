@@ -117,3 +117,8 @@ Week 10
     * Afternoon - [Intro to Redis](redis_node/)
 * Day 4
     * [Socket.IO](socket_io/)
+
+Week 11
+------
+* Day 2
+    * [Advanced JavaScript](advanced_js/)
